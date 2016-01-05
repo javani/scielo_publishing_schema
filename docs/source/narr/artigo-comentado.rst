@@ -34,6 +34,7 @@ Exemplo:
 
 
 Para artigo relacionado, o elemento :ref:`elemento-related-article` deve 
-apresentar os seguintes atributos: ``@related-article-type`` com o valor 
+apresentar os seguintes atributos: 
+``@related-article-type`` com o valor 
 **commentary-article**; ``@id``; ``@vol`` e ``@page`` com a informação do 
 intervalo de paginação do documento.
