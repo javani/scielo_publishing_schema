@@ -2142,6 +2142,7 @@ Em caso de suplemento de número em :ref:`elemento-front`, exemplo: ``v10n5s1``:
 Aparece em
   :ref:`elemento-article-meta`,
   :ref:`elemento-element-citation`
+  :ref:`elemento-front-stub`
  
 Ocorre
   Zero ou uma vez
@@ -2193,6 +2194,7 @@ Exemplo:
 Aparece em
   :ref:`elemento-article-meta`, 
   :ref:`elemento-element-citation`
+  :ref:`elemento-front-stub`
  
 Ocorre
   Zero ou uma vez
@@ -2645,16 +2647,46 @@ Os valores possíveis para o atributo ``@date-type`` são:
 -------------
 
 Aparece em
-  :ref:`elemento-article-meta`
+  :ref:`elemento-article-meta`, :ref:`elemento-boxed-text`, :ref:`elemento-disp-quote`, :ref:`elemento-fig`,
+  :ref:`elemento-graphic`, :ref:`elemento-media`, :ref:`elemento-supplementary-material`, :ref:`elemento-table-wrap`, :ref:`elemento-verse-group`.
+
  
 Ocorre
-  Uma vez
+  Uma vez em :ref:`elemento-article-meta`
+
+  Zero ou mais vezes nos demais elementos
+
 
 
 A permissão é um conjunto de condições sob as quais o conteúdo do artigo 
 pode ser usado, acessado e distribuído.
- 
- 
+
+
+Tabela - :ref:`elemento-permission` aparece em:
+-----------------------------------------------
+
++---------------------------+---------------------------+---------------------------------------------------------+
+| Objeto do Documento       | Elementos que podem       | O que a permissão                                       |
+|                           | apresentar <permisssions> | envolve                                                 |
++===========================+===========================+=========================================================+
+| Caixa de Texto            | <boxed-text>              | A própria tag                                           |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Citação                   | <disp-quote>              | A própria tag                                           |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Figura                    | <fig>                     | Toda a figura e arquivos relacionados                   |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Gráfico/Imagem            | <graphic>                 | O arquivo da imagem (`@xlink:href`) e sua descrição     |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Mídia                     | <media>                   | O arquivo mídia (`@xlink:href`) e sua descrição         |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Material Suplementar      | <supplementary-material>  | O arquivo suplementar e sua descrição                   |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Tabelas, legendas e notas | <table-wrap>              | A tabela, legenda, label e notas de rodapé de tabela    |
++---------------------------+---------------------------+---------------------------------------------------------+
+| Grupo de Versos           | <verse-group>             | A própria tag                                           |
++---------------------------+---------------------------+---------------------------------------------------------+
+
+  
 .. _elemento-license:
 
 <license>
@@ -2727,26 +2759,102 @@ Exemplo:
 .. note:: O texto de ``<license-p>`` deve ser inserido na língua principal do artigo.
  
  
-.. _elemento-copyright:
+.. _elemento-copyright-holder:
 
-<copyright>
-^^^^^^^^^^^
+<copyright-holder>
+^^^^^^^^^^^^^^^^^^
 
 Aparece em
   :ref:`elemento-permissions`
  
 Ocorre
-  Zero ou uma vez
+  Zero ou mais
 
 
-É possível além de :ref:`elemento-license` acrescentar outras informações 
-de direitos autorais através de duas tags, são elas:
+O `<copyright-holder>` deve ser utilizado quando um trabalho está protegido por direitos autorais.
+Nesse elemento deve ser identificado a pessoa ou instituição que detém os direitos autorais do documento.
+
+Exemplo:
+
+ .. code-block:: xml
+
+    ...
+     <article-meta>
+       ...
+        <permisssions>
+           ...
+            <copyright-holder>SciELO</copyright-holder>
+           ...
+        </permissions>
+        ...
+     </article-meta>
+
+
+.. _elemento-copyright-year:
+
+<copyright-year>
+^^^^^^^^^^^^^^^^^^
+
+Aparece em
+  :ref:`elemento-permissions`
  
-* ``<copyright-statement>`` para identificar a instituição a quem pertence 
-  os direitos. Normalmente a informação descrita aqui vem junto com o 
-  símbolo de "copyright".
-* ``<copyright-year>`` para identificar o ano do direito autoral.
+Ocorre
+  Zero ou mais
+
+
+O `<copyright-year>` deve ser utilizado para identificar o ano do direito autoral. 
+O elemento deve conter quatro dígitos e não deve haver espaço.
+
+Exemplo:
+
+ .. code-block:: xml
+
+    ...
+     <article-meta>
+       ...
+        <permisssions>
+           ...
+            <copyright-year>2014</copyright-holder>
+           ...
+        </permissions>
+        ...
+     </article-meta>
+
+
+
+.. _elemento-copyright-statement:
+
+<copyright-statement>
+^^^^^^^^^^^^^^^^^^
+
+Aparece em
+  :ref:`elemento-permissions`
  
+Ocorre
+  Zero ou mais
+
+
+O `<copyright-statement>`, assim como o :ref:`elemento-license-p` são utilizados para fins de exibição. 
+Esse elemento deve identificar a instituição a quem pertence os direitos. Normalmente a informação descrita aqui vem junto com o símbolo de ©.
+
+Exemplo:
+
+ .. code-block:: xml
+
+    ...
+     <article-meta>
+       ...
+        <permisssions>
+           ...
+            <copyright-statement>Copyright © 2014 SciELO</copyright-statement>
+           ...
+        </permissions>
+        ...
+     </article-meta>
+
+
+Abaixo um exemplo do :ref:`elemento-permissions` completo.
+
 Exemplo:
  
 .. code-block:: xml
@@ -2755,11 +2863,11 @@ Exemplo:
     <article-meta>
         ...
         <permissions>
-            <copyright-statement>&#x00A9; 2013 Elsevier Editora Ltda.</copyright-statement>
-            <copyright-year>2013</copyright-year>
-            <license license-type="open-access" 
-                     xlink:href="http://creativecommons.org/licenses/by/4.0/">
-                <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License, which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+            <copyright-statement>Copyright © 2014 SciELO</copyright-statement>
+            <copyright-year>2014</copyright-year>
+            <copyright-holder>SciELO</copyright-holder>
+            <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/" xml:lang="en">
+                <license-p>The JATS Standard is copyrighted by NISO, but all of the non-normative information found on this repository is in the CC BY-NC 4.0</license-p>
             </license>
         </permissions>
         ...
@@ -5724,26 +5832,28 @@ Exemplo da tag completa:
 ------------
 
 Aparece em
-  :ref:`elemento-sub-article`, 
-  :ref:`elemento-response`.
+    :ref:`elemento-sub-article`,
+    :ref:`elemento-response`.
 
 
 Tags obrigatórias
-  ``<subject>``
-  :ref:`elemento-article-title`
+    ``<subject>``
+    :ref:`elemento-article-title`
 
 
 Ocorre
-
-Uma vez
+    Uma vez
 
 
 Tag utilizada em :ref:`elemento-sub-article` a qual herda os metadados do xml principal, 
 portanto não inserir as tags :ref:`elemento-journal-meta` e :ref:`elemento-article-meta`. 
 Nessa tag deve ser inserido apenas as informações que são diferentes das que 
 constam no artigo principal, ou seja, não é necessário inserir informações como 
-:ref:`elemento-volume`, :ref:`elemento-issue`, :ref:`elemento-fpage` :ref:`elemento-lpage` e :ref:`elemento-elocation-id`, 
-:ref:`elemento-pub-date`, :ref:`elemento-permissions`, :ref:`elemento-funding-group`, :ref:`elemento-history`.
+:ref:`elemento-volume`, :ref:`elemento-issue`, :ref:`elemento-pub-date`, 
+:ref:`elemento-funding-group` e :ref:`elemento-history`.
+
+
+Versões em outros idiomas podem apresentar elementos de numeração de página diferentes do documento no idioma original. Nesses casos os elementos :ref:`elemento-fpage` :ref:`elemento-lpage` e :ref:`elemento-elocation-id` devem ser identificados em :ref:`elemento-front-stub`.
 
 
 Exemplo da tag completa:
