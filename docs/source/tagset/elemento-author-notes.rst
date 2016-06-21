@@ -3,16 +3,15 @@
 <author-notes>
 --------------       
 
-Aparece em
+Aparece em:
   :ref:`elemento-article-meta`
  
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
 
-A tag de notas de autor deve ser utilizada para identificar informações como 
-correspondência, contribuição igualitária, conflitos de interesses, 
-ou seja, notas sobre autor.
+Identifica informações como: correspondência, contribuição igualitária, conflitos
+de interesse etc, ou seja, notas sobre o autor.
 
 Exemplo:
  
@@ -31,3 +30,4 @@ Exemplo:
     </article-meta>
     ...
  
+.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"}

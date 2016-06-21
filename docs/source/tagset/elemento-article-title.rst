@@ -3,20 +3,19 @@
 <article-title>
 ^^^^^^^^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-title-group`, 
   :ref:`elemento-element-citation`
  
-Ocorre
+Ocorre:
   zero ou uma vez
 
+Utilizado para identificar o título do artigo em :ref:`elemento-article-meta`
+ou para especificar um título de documento nas referências em
+:ref:`elemento-element-citation`. Em ambos casos, o atributo ``@xml:lang``
+não deve ser utilizado.
 
-Esta tag pode ser utilizada para especificar o título do artigo em si 
-em :ref:`elemento-article-meta`, ou para especificar um título de documento 
-nas referências em :ref:`elemento-element-citation`. Em ambos os casos, o 
-atributo ``@xml:lang`` não deve ser utilizado.
-
-.. note:: O elemento ``<article-title>`` é obrigatório em :ref:`elemento-title-group`, .
+.. note:: ``<article-title>`` é obrigatório em :ref:`elemento-title-group`.
 
  
 Exemplo:
@@ -29,10 +28,10 @@ Exemplo:
     </title-group>
     ...
 
-.. note:: Se o título do artigo ou da referência possuir um subtítulo, ele deve 
-          ser marcado junto a tag ``<article-title>``. Não se deve marcar 
-          nenhum texto separadamente em outras tags 
-          (a mesma regra se aplica a :ref:`elemento-trans-title`).
+.. note:: Se o título do artigo ou da referência possuir um subtítulo, este deve 
+          ser marcado juntamente com o título sob ``<article-title>``.
+		  Não se deve marcar nenhum título e/ou subtítulo separadamente em outras
+		  tags. A mesma regra se aplica a :ref:`elemento-trans-title`.
  
 Exemplo:
  
@@ -45,7 +44,8 @@ Exemplo:
     ...
 
 
-.. note:: Se o título da seção for igual ao título do artigo (exemplo de alguns 
-          editoriais, erratas, cartas ao editor), repetir a informação no front 
-          e marcá-la com as tags de título. 
+.. note:: Se o título da seção e o título do artigo forem iguais - como ocorre em
+          alguns editoriais, erratas, cartas ao editor etc -, deve-se repetir a
+		  informação no :ref:`elemento-front` e marcá-la com os elementos de título. 
 
+.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}

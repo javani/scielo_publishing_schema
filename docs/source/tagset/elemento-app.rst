@@ -3,27 +3,23 @@
 <app>
 -----
 
-Aparece em
+Aparece em:
   :ref:`elemento-back`
 
-Atributos obrigatório 
-  1. id (Ver :ref:`sugestao-atribuicao-id`)
+Atributos obrigatórios: 
+  1. @id (Ver :ref:`sugestao-atribuicao-id`)
  
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
-Utilizado para indicar a presença de um apêndice ao documento. Para a marcação
-básica de um apêndice devemos levar em consideração duas tags importantes, a de
-grupo de apêndice ``app-group`` e de apêndice propriamente dito
-``<app>``. Deve ser inserida uma informação de
-etiqueta :ref:`elemento-label` em ``<app>``.
+Utilizado para indicar um apêndice ao documento. Exige o elemento :ref:`elemento-label` como título do apêndice.
+O elemento :ref:`app-group` deve sempre ser usado como agrupador do elemento ``<app>`` mesmo que houver somente uma ocorrência deste último.
 
- 
 Exemplo:
   
   app01... app10, app11;
  
-Exemplo de Apêndice com texto:
+Exemplo de apêndice com texto:
  
 .. code-block:: xml
  
@@ -37,7 +33,7 @@ Exemplo de Apêndice com texto:
     ...
 
 
-Exemplo de Apêndice com imagem (Pode ser imagem de figura, tabela, quadro, equação e etc):
+Exemplo de apêndice com imagem (fotografia, figura, tabela, quadro, equação e etc):
  
 .. code-block:: xml
  
@@ -51,7 +47,7 @@ Exemplo de Apêndice com imagem (Pode ser imagem de figura, tabela, quadro, equa
     </app-group>
     ...
 
-Exemplo de Apêndice com link externo (ext-link do tipo uri):
+Exemplo de apêndice com link externo (endereço do tipo URI):
  
 .. code-block:: xml
  
@@ -64,7 +60,7 @@ Exemplo de Apêndice com link externo (ext-link do tipo uri):
     </app-group>
     ...
  
-Exemplo de Apêndice com tabela:
+Exemplo de apêndice com tabela:
  
 .. code-block:: xml
  
@@ -103,7 +99,7 @@ Exemplo de Apêndice com tabela:
     </app-group>
     ...
 
-Exemplo de Apêndice misto (figura mais tabela)
+Exemplo de apêndice misto (figura mais tabela)
  
 .. code-block:: xml
 
@@ -147,7 +143,7 @@ Exemplo de Apêndice misto (figura mais tabela)
     </app-group>
     ...
  
-Exemplo de Apêndice misto (texto mais figura):
+Exemplo de apêndice misto (texto mais figura):
  
 .. code-block:: xml
  
@@ -165,7 +161,7 @@ Exemplo de Apêndice misto (texto mais figura):
     </app-group>
     ...
  
-Exemplo de Apêndice com vídeo:
+Exemplo de apêndice com vídeo:
 
 .. code-block:: xml
  
@@ -180,5 +176,5 @@ Exemplo de Apêndice com vídeo:
     </app-group>
     ...
  
-.. note:: Obrigatoriamente o elemento :ref:`elemento-app` deve estar inserido em ``<app-group>``.,
 
+.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}

@@ -3,7 +3,7 @@
 <boxed-text>
 ------------
 
-Aparece em
+Aparece em:
   :ref:`elemento-app`, 
   ``app-group``, 
   :ref:`elemento-body`, 
@@ -14,19 +14,18 @@ Aparece em
   :ref:`elemento-sec`
 
 
-Atributos obrigatórios
-  1. id
+Atributos obrigatórios:
+  1. @id
 
 
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
+Identifica texto ou objeto que faz parte do artigo, mas não do corpo do texto 
+(flutuante ou não ancorado).
+Permite apresentar texto com seções, figuras, tabelas etc.
 
-É utilizado para identificação de um texto ou objeto que faz parte do artigo, mas não do corpo do texto.
-É possível apresentar um texto com seções, figura, tabela etc.
-
-
-Exemplo com seções:
+Exemplo com seção:
 
 .. code-block:: xml
  
@@ -57,3 +56,4 @@ Exemplo com figura:
     </boxed-text>
     ...
 
+.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"}

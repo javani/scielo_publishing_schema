@@ -3,20 +3,19 @@
 <caption>
 ---------
  
-Aparece em
+Aparece em:
   :ref:`elemento-disp-formula`,
   :ref:`elemento-fig`, 
   :ref:`elemento-table-wrap`,
   :ref:`elemento-media`,
   :ref:`elemento-supplementary-material`
 
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
-
-Tag que representa uma descrição de tabela, figura ou objeto similar.
- 
-O elemento ``<caption>`` deve envolver a tag ``<title>`` com a descrição textual da legenda dos objetos mencionados.
+Descreve uma legenda para vários tipos de objeto. ``<caption>`` encerra
+o elemento ``<title>`` para conter o texto descritivo de uma tabela,
+figura, mídia, fórmula ou objeto similar.
  
 Exemplo:
  
@@ -32,3 +31,4 @@ Exemplo:
     </fig>
     ...
  
+.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}

@@ -3,14 +3,14 @@
 <conf-date>
 ^^^^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-element-citation`
   
-Ocorre 
+Ocorre:
   Zero ou mais vezes
 
-Trata-se de uma tag para identificar a data de uma conferência, evento e etc.
-Pode ser composta por um período por exemplo: 2003 Aug 25-29.
+Identifica a data de uma conferência, evento etc. Pode ser tambem
+um período, por exemplo: 2003 Aug 25-29.
 
 Exemplo:
 
@@ -22,3 +22,4 @@ Exemplo:
     </element-citation>
     ...
 
+.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}

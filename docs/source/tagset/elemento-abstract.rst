@@ -3,25 +3,20 @@
 <abstract>
 ----------
 
-Aparece em
+Aparece em:
   :ref:`elemento-article-meta`
  
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
 
-Tag que identifica o resumo do artigo e não deve conter informação de 
-atributo ``@xml:lang``. Embora em via de regra esse elemento ocorra 
-zero ou mais vezes, ele se faz obrigatório quando :ref:`elemento-article` for declarado
-com o atributo ``@article-type="research-article"`` ou ``@article-type="review-article"``.
-Em ``<abstract>`` deve ser inserido um elemento ``title`` para especificar o título do resumo.
+Elemento que identifica o resumo de um artigo. Não deve conter o atributo @xml:lang. Embora <abstract> possa não ocorrer, faz-se obrigatório quando <article-meta> for declarado com atributo @article-type="research-article" ou @article-type="review-article".
+<abstract> contém obrigatoriamente um elemento <title> que especifica o título do resumo.
 
-Os resumos apresentados nos artigos publicados na SciELO normalmente 
-apresentam-se em dois formatos:
+Os resumos dos artigos publicados na SciELO normalmente se apresentam em dois formatos:
  
-* Estruturado: Quando possui seções 
-  (Ex.: Introdução, Objetivos, Métodos e Resultado). Cada grupo apresentado 
-  no resumo será identificado como seção e cada seção terá seu título.
+* Estruturado: Possui grupos de textos organizados em seções identificadas com um título.
+  Ex.: Introdução, Objetivos, Métodos e Resultados
  
   Exemplo:
    
@@ -45,8 +40,7 @@ apresentam-se em dois formatos:
       </article-meta>
       ...
 
-* Simples: Quando apresenta de forma sucinta os principais pontos do 
-  texto sem a divisão por seções. 
+* Simples: Apresenta de forma sucinta os principais pontos do texto sem a divisão por seções. 
  
   Exemplo:
  
@@ -63,3 +57,4 @@ apresentam-se em dois formatos:
       </article-meta>
       ...
 
+.. {"reviewed_on": "20160616", "by": "gandhalf_thewhite@hotmail.com"}

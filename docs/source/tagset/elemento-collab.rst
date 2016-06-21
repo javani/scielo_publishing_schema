@@ -3,13 +3,15 @@
 <collab>
 ^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-contrib`
   :ref:`elemento-person-group`
  
-Ocorre
+Ocorre:
   Zero ou mais vezes
 
+Identificar uma autoria institucional individual ou em grupo.
 
-Utilizada para identificar uma autoria institucional individual ou grupo. 
+ 
 
+.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}

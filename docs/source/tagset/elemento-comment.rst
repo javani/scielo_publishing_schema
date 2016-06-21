@@ -3,15 +3,15 @@
 <comment>
 ^^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-element-citation`
 
-Ocorre 
+Ocorre:
   Zero ou mais vezes
 
-Tag pode servir para marcar alguma informações juntamente com uma URL 
-(ver tag :ref:`elemento-ext-link`)e também para identificar dados que não
-possuem tagueamento específico em uma referência.
+Identifica informações adicionais juntamente com uma URL 
+(ver tag :ref:`elemento-ext-link`) ou para identificar dados
+em uma referência que não possuem marcação específica.
 
 Exemplo:
 
@@ -23,3 +23,4 @@ Exemplo:
     </element-citation>
     ...
 
+.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}

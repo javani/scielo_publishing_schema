@@ -3,18 +3,18 @@
 <article-id>
 ^^^^^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-article-meta`
  
-Atributos obrigatórios
-  1. pub-id-type='doi'
+Atributos obrigatórios:
+  1. @pub-id-type='doi'
  
-Ocorre
+Ocorre:
   Uma ou mais vezes
 
 
-Cada artigo deve possuir um identificador único, e para tal a SciELO utiliza 
-o identificador :term:`DOI` do artigo. 
+Identificador único para cada :term:`documento`, sendo no caso da SciELO
+definido como o :term:`DOI` do artigo. 
  
 Exemplo:
  
@@ -27,4 +27,5 @@ Exemplo:
         ...
     </article-meta>
     ...
-     
+
+.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}

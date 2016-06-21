@@ -3,15 +3,13 @@
 <award-id>
 ^^^^^^^^^^
 
-Aparece em
+Aparece em:
   :ref:`elemento-award-group`
  
-Ocorre
+Ocorre:
   Uma ou mais vezes
 
-
-Esta tag deve ficar dentro de :ref:`elemento-award-group` e nela será 
-especificado o número de contrato estipulado pela instituição financiadora.
+Especifica o número do contrato com a instituição financiadora.
  
 Exemplo:
 
@@ -35,4 +33,4 @@ Exemplo:
     </article-meta>
     ...
      
- 
+.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"} 

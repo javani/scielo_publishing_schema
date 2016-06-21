@@ -3,16 +3,20 @@
 <body>
 ======
 
-Aparece em
+Aparece em:
   :ref:`elemento-article`
 
-Ocorre
+Ocorre:
   Uma vez
 
 
-O body compreende o conteúdo e desenvolvimento do artigo.
+Compreende todo o conteúdo formal de desenvolvimento do artigo científico, ou
+seja texto, imagens, tabelas, figuras, gráficos, equações, fórmulas etc.
  
-.. note:: Informamos que as tabelas, figuras e equações que não estão em 
-          ``app-group``, devem ser inseridas obrigatoriamente após 
-          a primeira chamada no texto. Para material suplementar, analisar e 
-          identificar conforme o PDF.
+.. note:: Tabelas, figuras e equações que não estejam identificadas sob 
+          ``app-group`` devem ser inseridas obrigatoriamente após a primeira
+		  chamada no texto. Para material suplementar, analisar e 
+          identificar caso a caso.
+
+		  
+.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"}
