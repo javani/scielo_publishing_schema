@@ -1,45 +1,55 @@
 .. _elemento-def-list:
- 
+
 <def-list>
 ----------
 
-Aparece em
+Aparece em:
+
   :ref:`elemento-app`
   ``app-group``
   :ref:`elemento-body`
   :ref:`elemento-boxed-text`
-  ``<def-list>`` 
+  ``<def-list>``
   :ref:`elemento-glossary`
   ``<list-item>``
   :ref:`elemento-p`
   :ref:`elemento-ref-list`
   :ref:`elemento-sec`
 
+Atributos obrigatórios:
 
-Ocorre
+  1. ``@id``
+
+
+Ocorre:
+
   Zero ou mais vezes
 
 
 
-Utilizada quando há uma lista de termos e suas respectivas definições.
+Descreve uma lista de termos e suas respectivas definições.
+
 A lista de definições deve ser apresentada como texto e apresenta os seguintes elementos:
 
-``<title>``, ``<term-head>``, ``<def-head>``, ``<def-item>``, ``<def-list>``.
+* ``<title>``
+* ``<term-head>``
+* ``<def-head>``
+* ``<def-item>``
+* ``<def-list>``
+
+Em ``<def-item>`` usam-se os seguintes elementos:
+
+* ``<term>``: Identifica a palavra, frase, equação etc., que está sendo definida
+              ou descrita.
+* ``<def>``: Descrição, explicação da palavra ou frase em ``<term>``. Nesse
+             contexto deve-se, obrigatoriamente, inserir o elemento :ref:`elemento-p`.
 
 
-Em ``<def-item>`` utilizar os seguintes elementos:
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
+``@id``.
 
-- <term> : Utilizado para identificar a palavra, frase, equação etc que está sendo definido ou descrito.
+Exemplo em ``<body:``:
 
-- <def> : Descrição, explicação da palavra ou frase identificada em <term>. Nesse elemento deve ser inserido, obrigatoriamente, o elemento :ref:`elemento-p`.
-
- 
-Consulte a :ref:`sugestao-atribuicao-id` para instruções sobre a composição do 
-atributo ``@id``.
- 
-
-Exemplo em body:
- 
 .. code-block:: xml
 
   <body>
@@ -66,13 +76,13 @@ Exemplo em body:
   </body>
 
 
-Exemplo sublista de definições:
- 
+Exemplo em sublista de definições:
+
 .. code-block:: xml
- 
+
     ...
     <def-list id="d2">
-      <label>Glossário</label>          
+      <label>Glossário</label>
       <def-item>
         <term>I</term>
         <def>
@@ -102,3 +112,4 @@ Exemplo sublista de definições:
     </def-list>
     ...
 
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

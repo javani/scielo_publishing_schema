@@ -3,14 +3,17 @@
 <email>
 ^^^^^^^
 
-Aparece em
-  :ref:`elemento-aff`, :ref:`elemento-corresp`
-  
-Ocorre
+Aparece em:
+
+  :ref:`elemento-aff`
+  :ref:`elemento-corresp`
+
+Ocorre:
+
   Zero ou mais vezes
 
 
-Tag utilizada para identificar endereços de email.
+Identifica endereços de email.
 
 
 Exemplos:
@@ -24,7 +27,7 @@ Exemplos:
         ...
     </aff>
     ...
-   
+
 
 .. code-block:: xml
 
@@ -36,3 +39,4 @@ Exemplos:
     </corresp>
     ...
 
+.. {"reviewed_on": "20160624", "by": "gandhalf_thewhite@hotmail.com"}

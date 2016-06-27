@@ -3,6 +3,18 @@
 <mixed-citation>
 ^^^^^^^^^^^^^^^^
 
-Tag utilizada para identificar uma referência bibliográfica conforme consta no
-PDF;
- 
+Aparece em:
+
+
+
+Ocorre:
+
+
+Elemento que identifica uma referência bibliográfica no :term:`documento`.
+
+
+Exemplo:
+
+
+
+.. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

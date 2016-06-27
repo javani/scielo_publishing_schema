@@ -3,74 +3,77 @@
 <element-citation>
 ^^^^^^^^^^^^^^^^^^
 
-Aparece em
+Aparece em:
+
   :ref:`elemento-ref`
 
-Atributos obrigatórios
-  1. publication-type
+Atributos obrigatórios:
 
-Ocorre
+  1. ``@publication-type``
+
+Ocorre:
+
   Uma ou mais vezes
 
 
-A tag ``<element-citation>`` apresenta a identificação detalhada de cada
-referência bibliográfica, e deve aparecer apenas como filha do elemento 
-:ref:`elemento-ref`. Além disso deve apresentar o atributo ``@publication-type``, 
-que indica o tipo de publicação da referência. 
 
-Os valores que podem ser utilizados para o atributo ``@publication-type`` são:
+``<element-citation>`` apresenta a identificação detalhada de cada referência
+bibliográfica e deve aparecer apenas como filho do elemento
+:ref:`elemento-ref`. Além disso, deve apresentar o atributo
+``@publication-type``,  que indica o tipo de publicação da referência.
+
+Os valores possíveis para o atributo ``@publication-type`` são:
 
 +-----------+------------------------------------------------------------------+
 | Valor     | Descrição                                                        |
 +===========+==================================================================+
-| book      | Utilizada para referenciar livros. Pode Também representar       |
-|           | somente uma parte ou capítulo de um livro.                       |
+| book      | Referencia livros. Pode também representar somente uma parte ou  |
+|           | capítulo de um livro.                                            |
 +-----------+------------------------------------------------------------------+
-| confproc  | Utilizada para referenciar documentos relacionados à eventos     |
-|           | científicos: atas, anais, resultados, proceedings, convenção,    |
-|           | conferência entre outros.                                        |
+| confproc  | Identifica documentos relacionados à eventos científicos: atas,  |
+|           | anais, resultados, proceedings, convenções, conferências entre   |
+|           | outros.                                                          |
 +-----------+------------------------------------------------------------------+
-| database  | Utilizada para referenciar bases de dados.                       |
+| database  | Especifica bases de dados.                                       |
 +-----------+------------------------------------------------------------------+
-| journal   | Utilizada para referenciar publicações seriadas, editadas em     |
-|           | unidades sucessivas, com designações numéricas e/ou cronológicas |
-|           | e destinada a ser continuada indefinidamente.                    |
+| journal   | Caracteriza publicações seriadas, editadas em unidades           |
+|           | sucessivas, com designações numéricas e/ou cronológicas, e       |
+|           | destinada a ser continuada indefinidamente.                      |
 +-----------+------------------------------------------------------------------+
-| patent    | Utilizada para referenciar patentes.                             |
+| patent    | Referencia patentes.                                             |
 +-----------+------------------------------------------------------------------+
-| report    | Utilizada para referencias de um relatório técnico, normalmente  |
-|           | de autoria institucional.                                        |
+| report    | Identifica um relatório técnico, normalmente de autoria          |
+|           | institucional.                                                   |
 +-----------+------------------------------------------------------------------+
-| software  | Utilizada para referenciar um software em suportes como CDs,     |
-|           | DVD's, suporte online, dispositivos usb e etc.                   |
+| software  | Referencia um software em suportes como CDs, DVDs, suporte       |
+|           | online, dispositivos USB etc.                                    |
 +-----------+------------------------------------------------------------------+
-| thesis    | Utilizada para referenciar monografias, dissertações ou teses    |
-|           | para obtenção de um grau acadêmico, tais como livre-docência,    |
-|           | doutorado, mestrado, bacharelado, licenciatura, etc.             |
+| thesis    | Caracteriza monografias, dissertações ou teses para obtenção de  |
+|           | um grau acadêmico (livre-docência, doutorado, mestrado,          |
+|           | bacharelado, licenciatura etc).                                  |
 +-----------+------------------------------------------------------------------+
-| webpage   | Utilizada para identificar informações de web sites e blogs      |
+| webpage   | Identifica informações de web sites e blogs.                     |
 +-----------+------------------------------------------------------------------+
-| legal-doc | Utilizada para referenciar normas jurídicas.                     |
+| legal-doc | Referencia normas jurídicas.                                     |
 +-----------+------------------------------------------------------------------+
-| newspaper | Utilizada para referenciar artigos de jornal.                    |
-+-----------+------------------------------------------------------------------+ 
-| other     | Utilizada para referenciar tipos não previstos pelo SciELO PS.   |
+| newspaper | Identifica artigos de jornal.                                    |
++-----------+------------------------------------------------------------------+
+| other     | Especifica tipos não previstos pela *SciELO PS*.                 |
 +-----------+------------------------------------------------------------------+
 
 
 .. note::
 
-  * Nunca manter uma informação toda com formatação <italic>, <bold>, etc,
-    dentro de alguma tag;
-  * Evitar pontuação dentro da marcação em :ref:`elemento-element-citation`
-    (ponto final, vírgula etc);
-  * Todas as informaçoes de uma referência devem ser marcadas, caso não exista
-    uma tag específica para uma informação inserir esta em
-    :ref:`elemento-comment`.
+  * Nunca incluir informação com formatação ``inline`` (``<italic>``, ``<bold>`` etc.)
+    dentro de um elemento;
+  * Evitar pontuação (ponto final, vírgula etc) dentro de :ref:`elemento-element-citation`;
+  * Todas as informações de uma referência devem ser marcadas. Caso não exista
+    um elemento específico para determinada informação, esta deve ser inserida
+    em :ref:`elemento-comment`.
 
 
 Exemplos:
- 
+
 .. code-block:: xml
 
     <!-- Journal Sample -->
@@ -96,13 +99,13 @@ Exemplos:
                 <ext-link ext-link-type="uri" xlink:href="http://socialsciences.scielo.org">http://socialsciences.scielo.org</ext-link>
             </element-citation>
         </ref>
-    <ref-list> 
+    <ref-list>
     ...
 
 
 .. code-block:: xml
 
-    <!-- Book Chapter Sample --> 
+    <!-- Book Chapter Sample -->
 
     ...
     <ref-list>
@@ -145,39 +148,39 @@ Exemplos:
     ...
 
 .. code-block:: xml
- 
-    <!-- Book Sample --> 
+
+    <!-- Book Sample -->
 
     ...
     <ref-list>
         <ref id="B03">
             <label>3</label>
-            <mixed-citation>LÉVY, Pierre. As tecnologias da inteligência: o 
-            futuro do pensamento na era da informática. Edição especial. Rio de 
+            <mixed-citation>LÉVY, Pierre. As tecnologias da inteligência: o
+            futuro do pensamento na era da informática. Edição especial. Rio de
             Janeiro: Editora 34. 2001. 208 p.</mixed-citation>
         <element-citation publication-type="book">
             <person-group person-group-type="author">
                 <name>
                     <surname>LÉVY</surname>
                     <given-names>Pierre</given-names>
-                </name>               
+                </name>
             </person-group>
-            <source>As tecnologias da inteligência: o futuro do pensamento na 
+            <source>As tecnologias da inteligência: o futuro do pensamento na
             era da informática</source>
             <edition>edição especial</edition>
             <publisher-loc>Rio de Janeiro</publisher-loc>
             <publisher-name>Editora 34</publisher-name>
-            <year>2001</year>            
-            <size units="pages">208</size>            
+            <year>2001</year>
+            <size units="pages">208</size>
         </element-citation>
         </ref>
     </ref-list>
     ...
- 
+
 .. code-block:: xml
- 
+
     <!-- Webpage Sample -->
-    
+
     ...
     <ref id="B04">
         <label>4</label>
@@ -189,21 +192,21 @@ Exemplos:
             <source>Desafio para o corpo</source>
             <comment>Disponível em: <ext-link ext-link-type="uri" xlink:href="http://www.cob.org.br/esportes/esporte.asp?id=39">http://www.cob.org.br/esportes/esporte.asp?id=39</ext-link></comment>
             <date-in-citation content-type="access-date">10 abr 2010</date-in-citation>
-        </element-citation> 
+        </element-citation>
     </ref>
     ...
 
-.. note:: Quando a referência apresentar URL com texto (Disponível em: ou 
-          Available from:) identificar conforme o exemplo acima.
- 
+.. note:: Quando a referência apresentar URL com texto ("Disponível em:" ou
+          "Available from:"), identificar conforme o exemplo acima.
+
 .. code-block:: xml
 
     <!-- Webpage Sample 2 -->
-  
+
     <ref id="B21">
         <label>21</label>
         <mixed-citation>Fugh-Berman A. PharmedOUT [Internet]. Washington: Georgetown University, Department of Physiology and Biophysics; c2006 [cited 2007 Mar 23]. Available from: http://www.pharmedout.org/.</mixed-citation>
-        <element-citation publication-type="webpage"> 
+        <element-citation publication-type="webpage">
             <person-group person-group-type="author">
                 <name>
                     <surname>Fugh-Berman</surname>
@@ -239,9 +242,9 @@ Exemplos:
                 <comment>(Technical Report Series; 949)</comment>
             </element-citation>
         </ref>
-    </ref-list> 
+    </ref-list>
     ...
- 
+
 .. code-block:: xml
 
     <!-- Report Sample -->
@@ -276,14 +279,14 @@ Exemplos:
     </ref-list>
     ...
 
-.. note:: Para referências que apresentam informações de coleção ou série 
-          exemplo, "Technical Report Series; 949" deve ser identificado com a 
-          tag ``<comment>``. Não confundir com referência bibliográfica do 
-          tipo "report" que apresenta número de relatório (Report No.: 431501009), 
-          para esses casos, identificar com a tag ``<pub-id pub-id-type="other">``.
+.. note:: Para referências que apresentam informações de coleção ou série, ex.:
+          "Technical Report Series; 949", identifica-se com o elemento ``<comment>``.
+          Não deve ser confundido com referência bibliográfica do tipo "report",
+          que apresenta número de relatório (Report No.: 431501009). Nesses casos
+          se referencia com o elemento ``<pub-id pub-id-type="other">``.
 
 .. code-block:: xml
- 
+
     <!-- Confproc (proceedings) Sample -->
 
     ...
@@ -303,14 +306,14 @@ Exemplos:
                 <year>1996</year>
             </element-citation>
         </ref>
-    </ref-list> 
+    </ref-list>
     ...
 
 
   .. code-block:: xml
- 
+
     <!-- Confproc (proceedings) Sample -->
-    
+
     ...
     <ref id="B42">
         <label>42</label>
@@ -340,7 +343,7 @@ Exemplos:
 .. code-block:: xml
 
     <!-- Thesis Sample -->
- 
+
     ...
     <ref-list>
         <ref id="B07">
@@ -364,7 +367,7 @@ Exemplos:
     ...
 
 .. code-block:: xml
- 
+
     <!-- Patent Sample -->
 
     ...
@@ -387,11 +390,11 @@ Exemplos:
     ...
 
 .. code-block:: xml
- 
+
     <!-- Software Sample -->
 
     ...
-    <ref-list>     
+    <ref-list>
         <ref id="B09">
             <label>9</label>
             <mixed-citation>MICROSOFT. Project for Windows 95: project planning software. Version 4.1. [S.l.]: Microsoft Corporation, 1995. 1 CD-ROM.</mixed-citation>
@@ -410,7 +413,7 @@ Exemplos:
     ...
 
 .. code-block:: xml
- 
+
     <!-- Database Sample -->
 
     ...
@@ -431,3 +434,5 @@ Exemplos:
     </ref-list>
     ...
 
+
+.. {"reviewed_on": "20160624", "by": "gandhalf_thewhite@hotmail.com"}

@@ -3,13 +3,21 @@
 <isbn>
 ^^^^^^
 
-Aparece em
-  :ref:`elemento-product`,
+Aparece em:
+
+  :ref:`elemento-product`
   :ref:`elemento-element-citation`
 
-Ocorre 
+Ocorre:
+
   Zero ou mais vezes
 
 
-Identifica o :term:`ISBN` de um livro e é identificado numa referência ou produto.
+Contém o :term:`ISBN` de um livro e é identificado em uma referência ou produto.
 
+Exemplo:
+
+
+
+
+.. {"reviewed_on": "20160626", "by": "gandhalf_thewhite@hotmail.com"}

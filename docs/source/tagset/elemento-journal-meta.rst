@@ -3,15 +3,21 @@
 <journal-meta>
 --------------
 
-Aparece em
+Aparece em:
+
   :ref:`elemento-front`
- 
-Ocorre
+
+Ocorre:
+
   Uma vez
 
 
-Em ``<journal-meta>`` faz-se a identificação dos metadados do periódico.
- 
-.. note:: Consulte o :ref:`arquivo de metadados dos periódicos <journal-meta-csv>` 
-          como referência na identificação dos elementos.
+Em ``<journal-meta>`` são identificados os metadados do periódico.
 
+.. note:: Sugere-se consultar o :ref:`arquivo de metadados dos periódicos
+          <journal-meta-csv>` como referência na identificação dos elementos.
+
+Exemplo:
+
+
+.. {"reviewed_on": "20160626", "by": "gandhalf_thewhite@hotmail.com"}
