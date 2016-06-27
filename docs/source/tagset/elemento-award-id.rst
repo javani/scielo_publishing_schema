@@ -1,24 +1,26 @@
 .. _elemento-award-id:
- 
+
 <award-id>
 ^^^^^^^^^^
 
 Aparece em:
+
   :ref:`elemento-award-group`
- 
+
 Ocorre:
+
   Uma ou mais vezes
 
-Especifica o número do contrato com a instituição financiadora.
- 
+Especifica o número do contrato firmado com a instituição financiadora. O nome da instituição é declarado no elemento :ref:`elemento-funding-source`
+
 Exemplo:
 
 .. code-block:: xml
- 
+
     ...
     <article-meta>
         ...
-        <funding-group>           
+        <funding-group>
             <award-group>
                 <funding-source>CNPq</funding-source>
                 <award-id>00001</award-id>
@@ -32,5 +34,5 @@ Exemplo:
         ...
     </article-meta>
     ...
-     
-.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"} 
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

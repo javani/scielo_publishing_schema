@@ -4,22 +4,29 @@
 ----------
 
 Aparece em:
+
   :ref:`elemento-article-meta`
- 
+
 Ocorre:
+
   Zero ou mais vezes
 
 
-Elemento que identifica o resumo de um artigo. Não deve conter o atributo @xml:lang. Embora <abstract> possa não ocorrer, faz-se obrigatório quando <article-meta> for declarado com atributo @article-type="research-article" ou @article-type="review-article".
-<abstract> contém obrigatoriamente um elemento <title> que especifica o título do resumo.
+Elemento que identifica o resumo de um artigo. Não deve conter o atributo
+``@xml:lang``. Embora ``<abstract>`` possa não ocorrer, faz-se obrigatório
+quando :ref:`elemento-article` for declarado com atributo
+``@article-type="research-article"`` ou ``@article-type="review-article"``.
 
-Os resumos dos artigos publicados na SciELO normalmente se apresentam em dois formatos:
- 
-* Estruturado: Possui grupos de textos organizados em seções identificadas com um título.
-  Ex.: Introdução, Objetivos, Métodos e Resultados
- 
+``<abstract>`` contém obrigatoriamente um elemento ``<title>`` que especifica o
+título do resumo.
+
+Os resumos dos artigos publicados na *SciELO* normalmente se apresentam em dois formatos:
+
+* Estruturado: Possui grupos de textos organizados em seções identificadas com
+  um título (Introdução, Objetivos, Métodos e Resultados).
+
   Exemplo:
-   
+
   .. code-block:: xml
 
       ...
@@ -34,18 +41,18 @@ Os resumos dos artigos publicados na SciELO normalmente se apresentam em dois fo
               <sec>
                   <title>Métodos</title>
                   <p>Durante quatro meses foram selecionados, consecutivamente, indivíduos com indicação para broncoscopia. Todos efetuaram avaliação clínica, preenchimento de escala de dispneia, curva de fluxo-volume e broncoscopia num intervalo de uma semana. Quatro revisores classificaram a morfologia da curva sem conhecimento dos dados quantitativos, clínicos e broncoscopicos. Um quinto revisor averiguou os critérios morfológicos e quantitativos.</p>
-              </sec>        
+              </sec>
           </abstract>
           ...
       </article-meta>
       ...
 
-* Simples: Apresenta de forma sucinta os principais pontos do texto sem a divisão por seções. 
- 
+* Simples: Apresenta de forma sucinta os principais pontos do texto sem a divisão por seções.
+
   Exemplo:
- 
+
   .. code-block:: xml
-   
+
       ...
       <article-meta>
           ...
@@ -57,4 +64,4 @@ Os resumos dos artigos publicados na SciELO normalmente se apresentam em dois fo
       </article-meta>
       ...
 
-.. {"reviewed_on": "20160616", "by": "gandhalf_thewhite@hotmail.com"}
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

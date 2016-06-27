@@ -1,17 +1,20 @@
 .. _elemento-article-meta:
-     
+
 <article-meta>
 --------------
 
 Aparece em:
+
   :ref:`elemento-front`
- 
+
 Ocorre:
+
   Uma vez
 
 
 Contém os metadados do artigo, cujos elementos básicos são:
-* DOI;
+
+* :term:`DOI`;
 * seção (de acordo com o sumário do periódico);
 * título(s) do artigo;
 * autor(es) e respectiva(s) afiliação(ões) e notas;
@@ -22,9 +25,10 @@ Contém os metadados do artigo, cujos elementos básicos são:
 * resumo(s);
 * palavras-chave;
 * histórico;
-* indicação da licença de uso Creative Commons;
+* indicação da licença de uso :term:`Creative Commons`;
 * contagem de elementos; e
 * dados de financiamento (se houver).
 
+Exemplo:
 
-.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

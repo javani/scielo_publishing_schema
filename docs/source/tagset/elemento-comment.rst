@@ -4,13 +4,15 @@
 ^^^^^^^^^
 
 Aparece em:
+
   :ref:`elemento-element-citation`
 
 Ocorre:
+
   Zero ou mais vezes
 
-Identifica informações adicionais juntamente com uma URL 
-(ver tag :ref:`elemento-ext-link`) ou para identificar dados
+Identifica informações adicionais juntamente com uma URL
+(ver elemento :ref:`elemento-ext-link`) ou para identificar dados
 em uma referência que não possuem marcação específica.
 
 Exemplo:
@@ -19,8 +21,9 @@ Exemplo:
 
     ...
     <element-citation>
-        <comment>1 CD-ROM: color, 4 3/4 in.</comment> 
+        <comment>1 CD-ROM: color, 4 3/4 in.</comment>
     </element-citation>
     ...
 
-.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

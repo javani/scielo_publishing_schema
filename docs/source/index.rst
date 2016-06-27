@@ -1,7 +1,7 @@
 Guia de uso de elementos e atributos XML para documentos que seguem a implementação SciELO Publishing Schema.
 =============================================================================================================
 
-Versão |version| - junho de 2016.
+Versão |version| - março de 2016.
 
 
 Versões anteriores:
@@ -15,19 +15,22 @@ Versões anteriores:
 Introdução
 ----------
 
-Este guia descreve o uso do estilo de marcação adotado pela SciELO para
+Este guia descreve o uso do estilo de marcação adotado pela *SciELO* para
 submissão de documentos em formato :term:`XML`.
 
 A :term:`SciELO Publishing Schema` (:term:`SciELO PS`) é composta pelas
 especificações:
-* :term:`NISO JATS Journal Publishing DTD`, versão 1.0;
+
+* :term:`NISO JATS Journal Publishing DTD` (`JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1.0/
+>`_);
 * :term:`Estilo SciELO PS` com regras especializadas da :term:`Metodologia SciELO`.
+
 Os usuários deste guia devem possuir conhecimentos prévios de :term:`XML` e
 :term:`DTD`.
 
 Dúvidas e/ou comentários acerca da especificação :term:`SciELO PS`, deste guia
-de uso ou das ferramentas disponibilizadas pela SciELO como apoio à marcação em
-:term:`XML` devem ser tratadas através da lista de discussão
+de uso ou das ferramentas disponibilizadas pela *SciELO* como apoio à marcação em
+:term:`XML` devem ser tratadas por meio de da lista de discussão
 `scielo-xml <http://groups.google.com/group/scielo-xml/>`_.
 
 
@@ -55,26 +58,32 @@ processo de submissão e comunidade de usuários.
 Ferramentas de apoio
 --------------------
 
-Algumas ferramentas são disponibilizadas e mantidas pela SciELO seguindo o
-modelo :term:`open-source`, para apoiar o processo de marcação de documentos em
-formato XML.
+Algumas ferramentas são disponibilizadas e mantidas pela *SciELO* seguindo o
+modelo *open source*, para apoiar o processo de marcação de documentos em
+formato *XML*.
 
 * `Markup <http://docs.scielo.org/projects/scielo-pc-programs/en/latest/markup.html>`_:
+
   Coleção de macros para :term:`Microsoft Word` para marcação de documentos
-  conforme a `DTD PMC <http://dtd.nlm.nih.gov/publishing/3.0/>`_.
+  conforme a :term:`SciELO Publishing Schema`.
+
 * `Stylechecker <http://manager.scielo.org/tools/validators/stylechecker/>`_:
+
   Ferramenta de Internet para verificar se determinado XML está em conformidade
   com a especificação :term:`SciELO PS`. Disponível a partir do :term:`SciELO
   Manager`.
-* `Packtools <https://github.com/scieloorg/packtools/>`_:
-  Biblioteca escrita em :term:`Python` com funcionalidades e utilitários para
-  manipulação de :term:`pacotes SciELO PS` e XMLs :term:`SciELO PS`.
-* `Package Maker <http://docs.scielo.org/projects/scielo-pc-programs/en/latest/xml_package_maker.html>`_:
-  Ferramenta para geração de :term:`pacotes SciELO PS` e PMC (apenas para
-  Windows). Adicionalmente, pode fornecer relatórios detalhados sobre a
-  estrutura e a validade de alguns metadados de documentos XML como subproduto
-  do processo de geração.
 
+* `Packtools <https://github.com/scieloorg/packtools/>`_:
+
+  Biblioteca escrita em :term:`Python` com funcionalidades e utilitários para
+  manipulação de pacotes e XMLs da :term:`SciELO PS`.
+
+* `Package Maker <http://docs.scielo.org/projects/scielo-pc-programs/en/latest/xml_package_maker.html>`_:
+
+  Ferramenta para geração de :term:`Pacotes SciELO PS` e :term:`PMC`.
+  Adicionalmente, fornece relatórios detalhados sobre a estrutura e a validade
+  de alguns metadados de documentos *XML* como subproduto do processo de
+  geração.
 
 .. _journal-meta-csv:
 
@@ -84,8 +93,8 @@ Metadados de periódicos
 Complementarmente, encontra-se disponível em formato :term:`csv` uma lista de
 metadados de periódicos necessários para identificação de elementos em
 ``<journal-meta>``. O documento pode ser baixado a partir deste `link
-<http://static.scielo.org/sps/titles-tab-utf-8.csv>`_ e sua atualização é
-semanal, sempre às terças-feiras.
+<http://static.scielo.org/sps/titles-tab-v2-utf-8.csv>`_ e sua atualização é
+semanal, sempre às quartas-feiras.
 
 
 Convenções utilizadas neste guia
@@ -101,23 +110,26 @@ Formatação
           relacionada ao contexto em que estão inseridas.
 
 *Itálico*
+
   Utilizado sempre para:
+
   * palavras e/ou termos estrangeiros;
-  * nomes de publicações, empresas, instituições, projetos, técnicas,
-    tecnologias, marcas etc;
+  * nomes de publicações, empresas, instituições, projetos, técnicas, tecnologias,
+    marcas etc;
   * nomes de arquivos, normas e referências.
 
-*``Itálico em fonte monoespaçada``*
+**Negrito**
+
   Identifica palavras ou termos que devem ser substituídos por conteúdo adequado
   fornecido pelo usuário.
 
-**Negrito**
-  Utilizado para identificar textos que devem ser substituídos por valores
-  fornecidos pelo usuário.
-
 ``Fonte monoespaçada``
-  Utilizado para exemplos, trechos de código e referências estáticas a elementos
-  e atributos do XML.
+
+  Usado para exemplos, trechos de código e referências estáticas a elementos
+  e atributos do *XML*.
+
+Será utilizada a linguagem de marcação :term:`RST` (*reStructuredText*) para
+formatar e habilitar recursos de hipertexto aos documentos.
 
 Estruturação
 ^^^^^^^^^^^^
@@ -125,24 +137,34 @@ Estruturação
 Na descrição dos elementos, devem obrigatoriamente aparecer os seguintes itens,
 salvo quando especificado em contrário:
 
-1. Nome do elemento em formato de tag.
-   Ex. <article-meta>
-2. Aparece em: apresenta o contexto (elemento-pai) onde o elemento ocorre,
+1. Nome do elemento em formato de *tag*.
+
+   Ex. ``<article-meta>``
+
+2. Aparece em: apresenta o contexto (:term:`elemento-pai`) onde o elemento ocorre,
    podendo ser uma lista.
-   Ex. <journal-meta>
+
+   Ex. ``<journal-meta>``
+
 3. Atributos obrigatórios: lista somente os atributos obrigatórios ao elemento
    descrito. Pode vir acompanhada de valores predefinidos e/ou obrigatórios. Item
    opcional.
-   Ex. @journal-id-type
+
+   Ex. ``@journal-id-type``
+
 4. Ocorre: especifica a quantidade de ocorrências.
+
    Ex. Uma vez
+
 5. Descrição do elemento.
+
 6. Exemplo(s).
+
 7. Nota(s). (se necessário)
 
 .. note:: A especificação :term:`NISO JATS Journal Publishing DTD` deve ser
           consultada sempre que houver dúvida em relação a contextualização de
-   		  elementos.
+          elementos.
 
 Documentação narrativa
 ----------------------
@@ -163,9 +185,10 @@ Documentação narrativa
 Lista de elementos
 ------------------
 
-Esta lista compreende apenas os elementos XML do :term:`Estilo SciELO PS`. A lista
-completa dos elementos XML que compõem o :term:`tag set` da
-:term:`NISO JATS Journal Publishing DTD` deve ser consultada se necessário.
+Esta lista compreende apenas os elementos XML do :term:`Estilo SciELO PS`. A
+lista completa dos elementos XML que compõem o :term:`tag set` da `JATS versão
+1.0 <http://jats.nlm.nih.gov/publishing/1.0/ >`_ deve ser consultada se
+necessário.
 
 .. toctree::
    :maxdepth: 1
@@ -189,4 +212,4 @@ completa dos elementos XML que compõem o :term:`tag set` da
 * :ref:`modindex`
 * :ref:`search`
 
-.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

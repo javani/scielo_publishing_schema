@@ -4,12 +4,15 @@
 ======
 
 Aparece em:
+
   :ref:`elemento-article`
 
 Ocorre:
+
   Zero ou uma vez
 
 Parte final do :term:`documento` que compreende:
+
 * lista de referências;
 * notas de rodapé;
 * agradecimentos
@@ -17,5 +20,8 @@ Parte final do :term:`documento` que compreende:
 * material suplementar
 * anexos; e
 * glossário.
- 
-.. {"reviewed_on": "20160619", "by": "gandhalf_thewhite@hotmail.com"}
+
+Exemplo:
+
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

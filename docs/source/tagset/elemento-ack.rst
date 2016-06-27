@@ -4,17 +4,23 @@
 -----
 
 Aparece em:
+
   :ref:`elemento-back`
 
 Ocorre:
+
   Zero ou mais vezes
 
-Seção de agradecimentos. Frequentemente indica os dados de financiamento da pesquisa como descrito em :ref:`elemento-funding-group` dentro de :ref:`elemento-front`.
- 
-No caso de ter um título (ex. "Agradecimentos" ou "Acknowledgment") identifica-se com o elemento ``<title>``. Também é possível utilizar o elemento :ref:`elemento-p` para identificar os parágrafos do texto.
+Seção de agradecimentos. Frequentemente indica os dados de financiamento da
+pesquisa como descrito em :ref:`elemento-funding-group` dentro de
+:ref:`elemento-front`.
+
+No caso de ter um título (ex. "Agradecimentos" ou "Acknowledgment")
+identifica-se com o elemento ``<title>`` (:term:`JATS versão 1.0`). Também é possível
+utilizar o elemento :ref:`elemento-p` para identificar os parágrafos do texto.
 
 Exemplo:
- 
+
 .. code-block:: xml
 
     ...
@@ -28,4 +34,4 @@ Exemplo:
 
 .. note:: Não se deve inserir o elemento :ref:`elemento-sec` para identificar uma seção de agradecimentos.
 
-.. {"reviewed_on": "20160616", "by": "gandhalf_thewhite@hotmail.com"}
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

@@ -4,12 +4,14 @@
 ^^^^^^^^^^^
 
 Aparece em:
+
   :ref:`elemento-element-citation`
-  
+
 Ocorre:
+
   Zero ou mais vezes
 
-Identifica a data de uma conferência, evento etc. Pode ser tambem
+Identifica a data de uma conferência, evento etc. Pode ser também
 um período, por exemplo: 2003 Aug 25-29.
 
 Exemplo:
@@ -22,4 +24,5 @@ Exemplo:
     </element-citation>
     ...
 
-.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

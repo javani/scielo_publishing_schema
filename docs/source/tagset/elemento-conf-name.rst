@@ -4,9 +4,11 @@
 ^^^^^^^^^^^
 
 Aparece em:
+
   :ref:`elemento-element-citation`
-  
+
 Ocorre:
+
   Zero ou mais vezes
 
 Identifica o nome de uma conferência, congresso, reunião, palestra, seminário e
@@ -22,4 +24,5 @@ Exemplo:
     </element-citation>
     ...
 
-.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

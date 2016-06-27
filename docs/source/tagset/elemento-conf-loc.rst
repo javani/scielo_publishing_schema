@@ -4,12 +4,14 @@
 ^^^^^^^^^^
 
 Aparece em:
+
   :ref:`elemento-element-citation`
-  
+
 Ocorre:
+
   Zero ou mais vezes
 
-Identifica a localização geográfica (país, cidade, estado, 
+Identifica a localização geográfica (país, cidade, estado,
 província) e/ou local físico (assembléia, anfiteatro etc.)
 de uma conferência, congresso, reunião, palestra, seminário
 e similares, mencionado em uma referência bibliográfica.
@@ -24,4 +26,5 @@ Exemplo:
     </element-citation>
     ...
 
-.. {"reviewed_on": "20160620", "by": "gandhalf_thewhite@hotmail.com"}
+
+.. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}
