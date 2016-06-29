@@ -18,11 +18,9 @@ Ocorre:
   Uma ou mais vezes
 
 
-Indica a licença de uso (:term:`Creative Commons`) adotada pelo artigo, por meio de referência à URL onde
-o texto da licença encontra-se disponível.
+Indica a licença de uso (:term:`Creative Commons`) adotada pelo artigo, por meio de referência à URL onde o texto da licença encontra-se disponível.
 
-Cada tipo de licença define regras que regulam uso, distribuição e adaptação
-da obra. Mais informações podem ser consultadas no site `Creative Commons <http://creativecommons.org/>`_.
+Cada tipo de licença define regras que regulam uso, distribuição e adaptação da obra. Mais informações podem ser consultadas no site `Creative Commons <http://creativecommons.org/>`_.
 
 
 Os valores possíveis para ``@xlink:href`` são:
@@ -84,5 +82,6 @@ Exemplo:
         ...
     </article-meta>
     ...
+
 
     .. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

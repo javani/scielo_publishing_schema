@@ -12,8 +12,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-Elemento obrigatório dentro de :ref:`elemento-kwd-group` e
-que identifica cada palavra-chave individualmente.
+Elemento obrigatório dentro de :ref:`elemento-kwd-group` que identifica cada palavra-chave individualmente.
 
 Exemplo:
 

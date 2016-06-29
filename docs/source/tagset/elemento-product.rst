@@ -16,9 +16,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-``<product>`` contém informações do produto resenhado, mas somente deverá ser
-utilizado quando :ref:`elemento-article` possuir o atributo
-``@article-type="book-review"``.
+``<product>`` contém informações do produto resenhado, mas somente deverá ser utilizado quando :ref:`elemento-article` possuir o atributo ``@article-type="book-review"``.
 
 Os valores possíveis para ``@product-type`` são:
 
@@ -65,8 +63,7 @@ Os valores possíveis para ``@product-type`` são:
     ...
 
 
-.. note:: A ordem dos elementos é importante! ``<product>`` deve ser inserido
-          antes de :ref:`elemento-history` ou depois de :ref:`elemento-fpage`.
+.. note:: A ordem dos elementos é importante! ``<product>`` deve ser inserido antes de :ref:`elemento-history` ou depois de :ref:`elemento-fpage`.
 
 
 .. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

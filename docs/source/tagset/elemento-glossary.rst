@@ -16,19 +16,18 @@ Ocorre:
   Zero ou mais vezes
 
 
-Este elemento tem a finalidade de descrever um glossário para o
-:term:`documento`. Geralmente, seu conteúdo é uma lista de definições,
-apresentando elementos do tipo :ref:`elemento-def-list`.
+Este elemento tem a finalidade de descrever um glossário para o :term:`documento`. Geralmente, seu conteúdo é uma lista de definições, apresentando elementos do tipo :ref:`elemento-def-list`.
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``, caso este seja utilizado.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``, caso este seja utilizado.
 
 O glossário pode ser apresentado como imagem, utilizando-se o elemento ``<graphic>``, ou como texto.
 
 .. note:: Não deve ser utilizada pontuação nos elementos ``<term>`` e ``<def>``.
 
 
-Exemplo em back:
+Exemplos:
+
+1. em ``<back>``:
 
 .. code-block:: xml
 
@@ -65,7 +64,7 @@ Exemplo em back:
   </back>
 
 
-Exemplo em apêndice:
+2. em ``<app-group>``:
 
 .. code-block:: xml
 
@@ -100,7 +99,7 @@ Exemplo em apêndice:
   </back>
 
 
-Exemplo em boxed-text:
+3. em ``<boxed-text>``:
 
 .. code-block:: xml
 

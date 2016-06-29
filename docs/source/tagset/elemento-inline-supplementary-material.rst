@@ -19,14 +19,12 @@ Ocorre:
 
   Zero ou mais vezes
 
-Tem a mesma função do elemento :ref:`elemento-supplementary-material`, mas é
-utilizado somente quando a menção ao material suplementar está em linha, ou
-seja, descrita  em um parágrafo.
+Tem a mesma função do elemento :ref:`elemento-supplementary-material`, mas é utilizado somente quando a menção ao material suplementar está em linha, ou seja, descrita em um parágrafo.
 
 Os atributos obrigatórios são:
 
 * ``@mimetype:``: Especifica o tipo de mídia como, por exemplo, “vídeo”, “aplicação”, entre outros.
-* ``@mime-subtype``: Usado para especificar o formato da mídia.
+* ``@mime-subtype``: Identifica o formato da mídia.
 * ``@xlink:href``: Contém o nome completo do arquivo de mídia, por exemplo, "artigo.pdf", "video.mov", "arquivo.zip" etc.
 
 .. note:: No endereço http://www.iana.org/assignments/media-types/media-types.xhtml há informação detalhada sobre os valores dos atributos ``@mimetype`` e ``@mime-subtype``.

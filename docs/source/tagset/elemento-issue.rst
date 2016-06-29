@@ -13,6 +13,9 @@ Ocorre:
   1. Zero ou uma vez em :ref:`elemento-front`
   2. Zero ou mais vezes em :ref:`elemento-back`
 
+
+Identifica o número de um fascículo (ou suplemento de número), seja este parte de um volume ou de um número especial.
+
 Exemplos:
 
 1. Em caso de suplemento de número em :ref:`elemento-front`, por exemplo, ``v10n5s1``:

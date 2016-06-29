@@ -16,8 +16,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Identifica o grupo de palavras-chave do artigo por idioma. Contém, obrigatoriamente, o atributo ``@xml:lang``.
-``<kwd-group>`` deve ter ainda um título identificando o grupo por meio do elemento ``title``.
+Identifica o grupo de palavras-chave do artigo por idioma. Contém, obrigatoriamente, o atributo ``@xml:lang``. ``<kwd-group>`` deve ter ainda um título identificando o grupo por meio do elemento ``title``.
 
 .. code-block:: xml
 

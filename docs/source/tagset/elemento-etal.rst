@@ -13,14 +13,11 @@ Ocorre:
   Zero ou uma vez
 
 
-Elemento utilizado quando há mais de três autores, sendo que somente se indica o
-primeiro, acrescentando-se a expressão ``et al.``, que significa "entre outros".
+Elemento utilizado quando há mais de três autores, sendo que somente se indica o primeiro, acrescentando-se a expressão ``et al.``, que significa "entre outros".
 
 Esta informação aparece primordialmente em referências.
 
-.. note:: Quando a informação aparecer no texto da referência, não é
-          necessário incluir o texto ``"et al."`` no elemento ``<etal>``,
-          bastando inserí-lo na forma ``<etal/>``.
+.. note:: Quando a informação aparecer no texto da referência, não é necessário incluir o texto ``"et al."`` no elemento ``<etal>``, bastando inserí-lo na forma ``<etal/>``.
 
 
 Exemplo:
@@ -43,5 +40,6 @@ Exemplo:
         ...
     </ref>
     ...
+
 
 .. {"reviewed_on": "20160624", "by": "gandhalf_thewhite@hotmail.com"}

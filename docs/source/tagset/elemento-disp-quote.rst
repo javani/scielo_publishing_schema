@@ -12,9 +12,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Descreve uma citação de outra fonte. Geralmente, essa informação é apresentada
-com algum  recuo, possui mais de três linhas e fonte em tamanho diferente do
-padrão para destacá-la.
+Descreve uma citação de outra fonte. Geralmente, essa informação é apresentada com algum  recuo, possui mais de três linhas e fonte em tamanho diferente do padrão para destacá-la.
 
 Exemplo:
 

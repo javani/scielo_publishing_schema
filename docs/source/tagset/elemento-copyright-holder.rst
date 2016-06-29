@@ -12,8 +12,7 @@ Ocorre:
   Zero ou mais
 
 
-Elemento utilizado quando um artigo está protegido por direitos autorais,
-sendo identificada a pessoa ou instituição detentora destes.
+Elemento utilizado quando um artigo está protegido por direitos autorais, sendo identificada a pessoa ou instituição detentora destes.
 
 Exemplo:
 

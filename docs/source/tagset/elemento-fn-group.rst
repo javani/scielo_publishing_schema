@@ -11,11 +11,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-``<fn-group>`` faz parte do elemento :ref:`elemento-back` e deve conter todo o
-grupo de notas de rodapé mencionadas no :term:`documento`, que não representam
-notas de autor, as quais devem ser identificadas com
-:ref:`elemento-author-notes`. Este elemento pode possuir um único título
-identificado com ``<title>``  e uma ou mais notas :ref:`elemento-fn`. 
+``<fn-group>`` faz parte do elemento :ref:`elemento-back` e deve conter todo o grupo de notas de rodapé mencionadas no :term:`documento`, que não representam notas de autor, as quais devem ser identificadas com :ref:`elemento-author-notes`. Este elemento pode possuir um único título identificado com ``<title>`` e uma ou mais notas :ref:`elemento-fn`.
 
 Exemplo:
 
@@ -38,5 +34,6 @@ Exemplo:
         ...
     </back>
     ...
+
 
 .. {"reviewed_on": "20160624", "by": "gandhalf_thewhite@hotmail.com"}

@@ -39,16 +39,15 @@ A lista de definições deve ser apresentada como texto e apresenta os seguintes
 
 Em ``<def-item>`` usam-se os seguintes elementos:
 
-* ``<term>``: Identifica a palavra, frase, equação etc., que está sendo definida
-              ou descrita.
-* ``<def>``: Descrição, explicação da palavra ou frase em ``<term>``. Nesse
-             contexto deve-se, obrigatoriamente, inserir o elemento :ref:`elemento-p`.
+* ``<term>``: Identifica a palavra, frase, equação etc., que está sendo definida ou descrita.
+* ``<def>``: Descrição, explicação da palavra ou frase em ``<term>``. Nesse contexto deve-se, obrigatoriamente, inserir o elemento :ref:`elemento-p`.
 
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``.
 
-Exemplo em ``<body:``:
+Exemplos:
+
+1. em ``<body:``:
 
 .. code-block:: xml
 
@@ -76,7 +75,7 @@ Exemplo em ``<body:``:
   </body>
 
 
-Exemplo em sublista de definições:
+2. em sublista de definições:
 
 .. code-block:: xml
 

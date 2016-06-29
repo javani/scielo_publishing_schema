@@ -11,13 +11,9 @@ Ocorre:
 
   Zero ou mais vezes
 
-Elemento que concentra informação de correspondência de um autor do artigo. Pode
-ou não conter um elemento :ref:`elemento-label`. O atributo  ``@id`` também é
-opcional. É possível ainda marcar a informação de correio eletrônico com
-``<email>`` caso exista.
+Elemento que concentra informação de correspondência de um autor do artigo. Pode ou não conter um elemento :ref:`elemento-label`. O atributo  ``@id`` também é opcional. É possível ainda marcar a informação de correio eletrônico com ``<email>`` caso exista.
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``.
 
 Exemplo:
 

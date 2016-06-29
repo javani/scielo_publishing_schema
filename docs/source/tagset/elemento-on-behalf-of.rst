@@ -12,8 +12,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Utiliza-se quando um autor age como representante de um grupo ou
-organização na autoria ou edição de um artigo.
+Utiliza-se quando um autor age como representante de um grupo ou organização na autoria ou edição de um artigo.
 
 
 Exemplo:

@@ -18,11 +18,9 @@ Ocorre:
 
   Zero ou mais vezes
 
-Especifica referências a recursos disponíveis na internet. As únicas restrições
-quanto à sua utilização são:
+Especifica referências a recursos disponíveis na internet. As únicas restrições quanto à sua utilização são:
 
-* O *scheme* deve ser explícito, ou seja, deve começar com ``http://``, ``ftp://``,
-  ``urn:`` etc;
+* O *scheme* deve ser explícito, ou seja, deve começar com ``http://``, ``ftp://``,   ``urn:`` etc;
 * Referências locais, por meio do *scheme* ``file://`` não são permitidas.
 
 

@@ -16,8 +16,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-``<date>`` deve conter obrigatoriamente o elemento :ref:`elemento-year`. Usa-se
-o atributo ``@date-type`` para especificar o tipo do ação envolvida.
+``<date>`` deve conter obrigatoriamente o elemento :ref:`elemento-year`. Usa-se o atributo ``@date-type`` para especificar o tipo do ação envolvida.
 
 Os valores possíveis para o atributo ``@date-type`` são:
 

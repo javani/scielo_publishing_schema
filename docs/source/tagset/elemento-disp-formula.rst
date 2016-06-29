@@ -21,12 +21,12 @@ Ocorre:
   Zero ou mais vezes
 
 
-Identifica equações em parágrafos do texto, podendo ser  apresentadas como
-imagem ou codificadas. Se a equação for uma imagem, deve-se incluir o  nome do
-arquivo de imagem em ``<graphic>``. O atributo ``@id`` é mandatório.
+Identifica equações em parágrafos do texto, podendo ser  apresentadas como imagem ou codificadas. Se a equação for uma imagem, deve-se incluir o nome do arquivo de imagem em ``<graphic>``. O atributo ``@id`` é mandatório.
 
 
-Exemplo 1:
+Exemplos:
+
+1. em imagem:
 
 .. code-block:: xml
 
@@ -37,7 +37,7 @@ Exemplo 1:
     </disp-formula>
     ...
 
-Exemplo 2:
+2. codificada:
 
 .. code-block:: xml
 

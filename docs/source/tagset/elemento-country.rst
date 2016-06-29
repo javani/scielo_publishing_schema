@@ -16,12 +16,9 @@ Ocorre:
   Uma vez
 
 
-Identifica o país de afiliação de um autor. O atributo ``@country`` é
-obrigatório e deve ser preenchido de acordo com a Norma *ISO 3166*, cujos
-códigos tem dois caracteres alfabéticos em caixa alta.
+Identifica o país de afiliação de um autor. O atributo ``@country`` é obrigatório e deve ser preenchido de acordo com a Norma *ISO 3166*, cujos códigos tem dois caracteres alfabéticos em caixa alta.
 
-Os códigos de país podem ser consultados através deste `link
-<http://www.iso.org/iso/country_codes>`_.
+Os códigos de país podem ser consultados através deste `link <http://www.iso.org/iso/country_codes>`_.
 
 
 Exemplo:

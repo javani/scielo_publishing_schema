@@ -17,11 +17,9 @@ Ocorre:
   Zero ou mais vezes
 
 
-Usado para identificar equações incluídas como imagem que estejam posicionadas
-em linha, ou seja, ancoradas em um parágrafo.
+Usado para identificar equações incluídas como imagem que estejam posicionadas em linha, ou seja, ancoradas em um parágrafo.
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``, caso este seja utilizado.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``, caso este seja utilizado.
 
 Exemplo:
 

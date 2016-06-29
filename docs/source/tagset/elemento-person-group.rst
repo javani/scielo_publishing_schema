@@ -16,10 +16,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica grupo ou indivíduo criador/elaborador do :term:`documento`.
-Caso existam, os elementos :ref:`elemento-collab`, :ref:`elemento-role`,
-:ref:`elemento-name` e :ref:`elemento-etal`, somente devem ser
-identificadas em ``person-group``.
+Identifica grupo ou indivíduo criador/elaborador do :term:`documento`. Caso existam, os elementos :ref:`elemento-collab`, :ref:`elemento-role`, :ref:`elemento-name` e :ref:`elemento-etal`, somente devem ser identificadas em ``person-group``.
 
 Os valores possíveis para ``@person-group-type`` são:
 
@@ -56,8 +53,7 @@ Exemplo:
     </ref>
     ...
 
-.. note:: Em ``person-group`` o elemento :ref:`elemento-name` ocorre zero ou
-          mais vezes.
+.. note:: Em ``person-group`` o elemento :ref:`elemento-name` ocorre zero ou mais vezes.
 
 
 .. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

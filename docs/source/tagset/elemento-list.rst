@@ -19,15 +19,11 @@ Ocorre:
   Zero ou mais vezes
 
 
-Lista contendo dois ou mais itens. Pode conter, opcionalmente, um elemento
-``<title>`` ou um elemento ``<label>``, exclusivamente.
+Lista contendo dois ou mais itens. Pode conter, opcionalmente, um elemento ``<title>`` ou um elemento ``<label>``, exclusivamente.
 
-O elemento ``<label>`` deve ser utilizado para identificar a legenda que pode
-acompanhar a lista. São consideradas legendas: legenda de equação, figura,
-referência, etc.
+O elemento ``<label>`` deve ser utilizado para identificar a legenda que pode acompanhar a lista. São consideradas legendas: legenda de equação, figura, referência, etc.
 
-O atributo ``@list-type`` especifica o prefixo a ser utilizado no marcador da
-lista, cujos valores possíveis são:
+O atributo ``@list-type`` especifica o prefixo a ser utilizado no marcador da lista, cujos valores possíveis são:
 
 +----------------+-------------------------------------------------------------------+
 | Valor          | Descrição                                                         |
@@ -82,8 +78,7 @@ Deve ser identificada como:
     </list>
     ...
 
-.. note:: Note que o marcador não deve ser identificado como parte do texto no
-          elemento ``<list-item>``.
+.. note:: Note que o marcador não deve ser identificado como parte do texto no elemento ``<list-item>``.
 
 
 .. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

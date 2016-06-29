@@ -21,8 +21,7 @@ Ocorre:
   1. Uma vez em :ref:`elemento-article-meta`
   2. Zero ou mais vezes nos demais elementos
 
-A permissão é um conjunto de condições sob as quais o conteúdo do artigo
-pode ser usado, acessado e distribuído.
+A permissão é um conjunto de condições sob as quais o conteúdo do artigo pode ser usado, acessado e distribuído.
 
 Tabela - :ref:`elemento-permissions` aparece em:
 
@@ -51,7 +50,9 @@ Tabela - :ref:`elemento-permissions` aparece em:
 +----------------------+--------------------------+---------------------------------------+
 
 
-Exemplo em :ref:`elemento-article-meta`:
+Exemplos:
+
+1. em :ref:`elemento-article-meta`:
 
 .. code-block:: xml
 
@@ -71,8 +72,7 @@ Exemplo em :ref:`elemento-article-meta`:
     ...
 
 
-
-Exemplo de Figura com o elemento ``<permissions>``:
+2. em ``<fig>``:
 
 .. code-block:: xml
 
@@ -95,7 +95,7 @@ Exemplo de Figura com o elemento ``<permissions>``:
     ...
 
 
-Exemplo de Tabela codificada com o elemento ``<permissions>``:
+3. em ``<table-wrap>``:
 
 .. code-block:: xml
 
@@ -134,11 +134,11 @@ Exemplo de Tabela codificada com o elemento ``<permissions>``:
             <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/" xml:lang="en">
                 <license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</license-p>
             </license>
-        </permissions>
+      </permissions>
    </table-wrap>
 
 
-Exemplo de Tabela em imagem com o elemento ``<permissions>``:
+4. referente imagem dentro de ``<table-wrap>``:
 
 .. code-block:: xml
 
@@ -156,7 +156,7 @@ Exemplo de Tabela em imagem com o elemento ``<permissions>``:
             <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/" xml:lang="en">
                 <license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</license-p>
             </license>
-        </permissions>
+         </permissions>
    </table-wrap>
 
 

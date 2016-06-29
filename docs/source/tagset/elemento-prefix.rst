@@ -12,9 +12,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Especifica um qualificador que precede o prenome do autor. Geralmente, é usado
-para indicar qualificadores, por exemplo, "Prof. Dr.", "Dr.", "Sr.",
-"Presidente", "Embaixador", entre outros.
+Especifica um qualificador que precede o prenome do autor. Geralmente, é usado para indicar qualificadores, por exemplo, "Prof. Dr.", "Dr.", "Sr.", "Presidente", "Embaixador", entre outros.
 
 Exemplo:
 

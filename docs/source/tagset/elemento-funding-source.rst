@@ -12,8 +12,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-Elemento contido em :ref:`elemento-award-group` onde deve ser especificado o
-órgão e/ou instituição financiadora, caso exista.
+Elemento contido em :ref:`elemento-award-group` onde deve ser especificado o órgão e/ou instituição financiadora, caso exista.
 
 Exemplo:
 

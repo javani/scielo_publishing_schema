@@ -17,10 +17,7 @@ Ocorre:
 
 
 
-``<element-citation>`` apresenta a identificação detalhada de cada referência
-bibliográfica e deve aparecer apenas como filho do elemento
-:ref:`elemento-ref`. Além disso, deve apresentar o atributo
-``@publication-type``,  que indica o tipo de publicação da referência.
+``<element-citation>`` apresenta a identificação detalhada de cada referência bibliográfica e deve aparecer apenas como filho do elemento :ref:`elemento-ref`. Além disso, deve apresentar o atributo ``@publication-type``,  que indica o tipo de publicação da referência.
 
 Os valores possíveis para o atributo ``@publication-type`` são:
 
@@ -64,15 +61,14 @@ Os valores possíveis para o atributo ``@publication-type`` são:
 
 .. note::
 
-  * Nunca incluir informação com formatação ``inline`` (``<italic>``, ``<bold>`` etc.)
-    dentro de um elemento;
+  * Nunca incluir informação com formatação ``inline`` (``<italic>``, ``<bold>`` etc.) dentro de um elemento;
   * Evitar pontuação (ponto final, vírgula etc) dentro de :ref:`elemento-element-citation`;
-  * Todas as informações de uma referência devem ser marcadas. Caso não exista
-    um elemento específico para determinada informação, esta deve ser inserida
-    em :ref:`elemento-comment`.
+  * Todas as informações de uma referência devem ser marcadas. Caso não exista um elemento específico para determinada informação, esta deve ser inserida em :ref:`elemento-comment`.
 
 
 Exemplos:
+
+1. Periódico:
 
 .. code-block:: xml
 
@@ -102,6 +98,7 @@ Exemplos:
     <ref-list>
     ...
 
+2. Capítulo de livro:
 
 .. code-block:: xml
 
@@ -147,6 +144,8 @@ Exemplos:
     </ref-list>
     ...
 
+3. Livro:
+
 .. code-block:: xml
 
     <!-- Book Sample -->
@@ -177,6 +176,8 @@ Exemplos:
     </ref-list>
     ...
 
+4. Página de Internet 1:
+
 .. code-block:: xml
 
     <!-- Webpage Sample -->
@@ -196,8 +197,9 @@ Exemplos:
     </ref>
     ...
 
-.. note:: Quando a referência apresentar URL com texto ("Disponível em:" ou
-          "Available from:"), identificar conforme o exemplo acima.
+.. note:: Quando a referência apresentar URL com texto ("Disponível em:" ou "Available from:"), identificar conforme o exemplo acima.
+
+5. Página de Internet 2:
 
 .. code-block:: xml
 
@@ -222,6 +224,8 @@ Exemplos:
         </element-citation>
     </ref>
 
+6. Relatório 1:
+
 .. code-block:: xml
 
     <!-- Report Sample -->
@@ -244,6 +248,8 @@ Exemplos:
         </ref>
     </ref-list>
     ...
+
+7. Relatório 2:
 
 .. code-block:: xml
 
@@ -279,11 +285,9 @@ Exemplos:
     </ref-list>
     ...
 
-.. note:: Para referências que apresentam informações de coleção ou série, ex.:
-          "Technical Report Series; 949", identifica-se com o elemento ``<comment>``.
-          Não deve ser confundido com referência bibliográfica do tipo "report",
-          que apresenta número de relatório (Report No.: 431501009). Nesses casos
-          se referencia com o elemento ``<pub-id pub-id-type="other">``.
+.. note:: Para referências que apresentam informações de coleção ou série, ex.: "Technical Report Series; 949", identifica-se com o elemento ``<comment>``. Não deve ser confundido com referência bibliográfica do tipo "report", que apresenta número de relatório (Report No.: 431501009). Nesses casos se referencia com o elemento ``<pub-id pub-id-type="other">``.
+
+8. Conferência 1:
 
 .. code-block:: xml
 
@@ -309,6 +313,7 @@ Exemplos:
     </ref-list>
     ...
 
+9. Conferência 2:
 
   .. code-block:: xml
 
@@ -339,6 +344,7 @@ Exemplos:
       </ref>
       ...
 
+10. Dissertação:
 
 .. code-block:: xml
 
@@ -366,6 +372,8 @@ Exemplos:
     </ref-list>
     ...
 
+11. Patente:
+
 .. code-block:: xml
 
     <!-- Patent Sample -->
@@ -389,6 +397,8 @@ Exemplos:
     </ref-list>
     ...
 
+12. Software:
+
 .. code-block:: xml
 
     <!-- Software Sample -->
@@ -411,6 +421,8 @@ Exemplos:
         </ref>
     <ref-list>
     ...
+
+13. Base de dados:
 
 .. code-block:: xml
 

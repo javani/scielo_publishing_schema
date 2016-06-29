@@ -31,8 +31,7 @@ Exemplo:
     </ref>
     ...
 
-.. note:: A inserção do intervalo de paginação deve ocorrer após a informação de
-          última página (:ref:`elemento-lpage`).
+.. note:: A inserção do intervalo de paginação deve ocorrer após a informação de última página (:ref:`elemento-lpage`).
 
 
 .. {"reviewed_on": "20160627", "by": "gandhalf_thewhite@hotmail.com"}

@@ -28,9 +28,7 @@ Os valores permitidos para ``@journal-id-type`` são:
 | nlm-ta        | Título abreviado no :term:`PubMed`      |
 +---------------+-----------------------------------------+
 
-Artigos de periódico indexados no :term:`PubMed` devem apresentar, adicionalmente,
-o título abreviado do periódico naquele índice por meio do elemento
-``<journal-id @journal-id-type="nlm-ta">``.
+Artigos de periódico indexados no :term:`PubMed` devem apresentar, adicionalmente, o título abreviado do periódico naquele índice por meio do elemento ``<journal-id @journal-id-type="nlm-ta">``.
 
 Exemplo:
 
@@ -45,12 +43,10 @@ Exemplo:
     </journal-meta>
     ...
 
-Pode-se consultar o `PubMed <http://www.ncbi.nlm.nih.gov/pubmed/advanced>`_ para
-verificar se o periódico está indexado naquele índice.
+Pode-se consultar o `PubMed <http://www.ncbi.nlm.nih.gov/pubmed/advanced>`_ para verificar se o periódico encontra-se indexado.
 
 
-.. note:: Sugere-se consultar o :ref:`arquivo de metadados dos periódicos
-          <journal-meta-csv>` como referência na identificação dos elementos.
+.. note:: Sugere-se consultar o :ref:`arquivo de metadados dos periódicos <journal-meta-csv>` como referência na identificação dos elementos.
 
 
 .. {"reviewed_on": "20160626", "by": "gandhalf_thewhite@hotmail.com"}

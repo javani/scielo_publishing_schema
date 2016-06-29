@@ -12,8 +12,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica o número da edição de um documento em uma referência (``<element-citation>``). Pode também
-conter a versão de um software ou base de dados (``<product>``).
+Identifica o número da edição de um documento em uma referência (``<element-citation>``). Pode também conter a versão de um software ou base de dados (``<product>``).
 
 Exemplo:
 

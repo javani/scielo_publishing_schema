@@ -18,6 +18,8 @@ Identifica endereços de email.
 
 Exemplos:
 
+1. em ``<aff>``:
+
 .. code-block:: xml
 
     ...
@@ -28,6 +30,7 @@ Exemplos:
     </aff>
     ...
 
+2. em ``<corresp>``:
 
 .. code-block:: xml
 
@@ -38,5 +41,6 @@ Exemplos:
         <email>allorafaciamocosi@foo.com</email>
     </corresp>
     ...
+
 
 .. {"reviewed_on": "20160624", "by": "gandhalf_thewhite@hotmail.com"}

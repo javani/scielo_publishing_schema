@@ -27,13 +27,13 @@ Ocorre:
 - filmes;
 - animações.
 
-Para composição do atributo ``@id`` em ``<media>`` utiliza-se o padrão: ``m`` +
-número de ordem da mídia. Por exemplo, m01... m10, m11.
+Para composição do atributo ``@id`` em ``<media>`` utiliza-se o padrão: ``m`` + número de ordem da mídia. Por exemplo, m01... m10, m11.
 
-``@mimetype`` é usado para especificar o tipo de mídia, por exemplo, "vídeo" ou
-"aplicação". ``@mime-subtype`` é usado para especificar o formato da mídia.
+``@mimetype`` é usado para especificar o tipo de mídia, por exemplo, "vídeo" ou "aplicação". ``@mime-subtype`` é usado para especificar o formato da mídia.
 
-Exemplo:
+Exemplos:
+
+1. forma geral:
 
 .. code-block:: xml
 
@@ -42,9 +42,7 @@ Exemplo:
            xlink:href="1234-5678-rctb-45-05-0110-m01.mp4"/>
 
 
-Exemplos:
-
-*Em parágrafo:*
+2. Em parágrafo:
 
 .. code-block:: xml
 
@@ -54,7 +52,7 @@ Exemplos:
     mime-subtype="mp4" xlink:href="1234-5678-rctb-45-05-0110-m01.mp4"/></p>
 
 
-*Em figuras:*
+3. Em figura:
 
 .. code-block:: xml
 
@@ -69,7 +67,7 @@ Exemplos:
     </p>
 
 
-*Em :ref:`elemento-sec` do tipo material suplementar:*
+4. Em :ref:`elemento-sec` do tipo material suplementar:
 
 .. code-block:: xml
 

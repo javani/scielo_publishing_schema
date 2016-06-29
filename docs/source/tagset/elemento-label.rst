@@ -31,6 +31,8 @@ Ocorre:
 
 Exemplos:
 
+1. em ``<aff>``:
+
 .. code-block:: xml
 
     <aff id="aff01">
@@ -38,6 +40,7 @@ Exemplos:
         ...
     </aff>
 
+2. em ``<corresp>``:
 
 .. code-block:: xml
 
@@ -46,6 +49,7 @@ Exemplos:
        ...
     </corresp>
 
+3. em ``<fig>``:
 
 .. code-block:: xml
 
@@ -54,6 +58,7 @@ Exemplos:
         ...
     </fig>
 
+4. em ``<table-wrap>``:
 
 .. code-block:: xml
 
@@ -62,6 +67,7 @@ Exemplos:
         ...
     </table-wrap>
 
+5. em ``<ref>``:
 
 .. code-block:: xml
 
@@ -70,6 +76,7 @@ Exemplos:
         ...
     </ref>
 
+6. em ``<app>``:
 
 .. code-block:: xml
 

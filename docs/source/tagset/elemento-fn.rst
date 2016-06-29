@@ -3,9 +3,7 @@
 <fn>
 ----
 
-Representa um complemento ou um comentário explicativo do que está sendo
-citado no texto e deve ser identificado de acordo com sua natureza
-ao referenciar autores ou demais partes do texto.
+Representa um complemento ou um comentário explicativo do que está sendo citado no texto e deve ser identificado de acordo com sua natureza ao referenciar autores ou demais partes do texto.
 
 
 .. _elemento-fn-notas-autores:
@@ -26,8 +24,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Notas de rodapé de autores são inseridas em :ref:`elemento-author-notes` e,
-obrigatoriamente, possuem o atributo ``@fn-type``.
+Notas de rodapé de autores são inseridas em :ref:`elemento-author-notes` e, obrigatoriamente, possuem o atributo ``@fn-type``.
 
 Os valores possíveis para ``@fn-type`` são:
 
@@ -69,6 +66,7 @@ Os valores possíveis para ``@fn-type`` são:
 | presented-by              | Informação de trabalho apresentado pelo autor    |
 +---------------------------+--------------------------------------------------+
 
+Exemplo:
 
 .. code-block:: xml
 
@@ -106,22 +104,15 @@ Ocorre:
   Uma ou mais vezes
 
 
-Representa um complemento ou um comentário explicativo do que está sendo
-citado no texto.
+Representa um complemento ou um comentário explicativo do que está sendo citado no texto.
 
-As notas que devem ser consideradas como nota de rodapé de :ref:`elemento-back`,
-são aquelas que não fazem qualquer tipo de referência aos autores, as quais
-deverão ser identificadas em :ref:`elemento-fn-notas-autores`.
+As notas que devem ser consideradas como nota de rodapé de :ref:`elemento-back`, são aquelas que não fazem qualquer tipo de referência aos autores, as quais deverão ser identificadas em :ref:`elemento-fn-notas-autores`.
 
-Notas marcadas em :ref:`elemento-back` devem ser identificadas dentro do grupo
-:ref:`elemento-fn-group`.
+Notas marcadas em :ref:`elemento-back` devem ser identificadas dentro do grupo :ref:`elemento-fn-group`.
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``.
 
-Notas que apresentam uma etiqueta de identificação (1, 2, a, b, ``*``, e etc)
-devem ser marcadas com o elemento :ref:`elemento-label`. Este elemento não
-pode ocorrer dentro de :ref:`elemento-p`.
+Notas que apresentam uma etiqueta de identificação (1, 2, a, b, ``*``, e etc) devem ser marcadas com o elemento :ref:`elemento-label`. Este elemento não pode ocorrer dentro de :ref:`elemento-p`.
 
 Os valores possíveis para ``@fn-type`` são:
 
@@ -200,11 +191,9 @@ Ocorre:
 
   Uma ou mais vezes
 
-Notas de rodapé de tabelas são incluídas em :ref:`elemento-table-wrap-foot` e,
-obrigatoriamente, possuem o atributo ``@id``.
+Notas de rodapé de tabelas são incluídas em :ref:`elemento-table-wrap-foot` e, obrigatoriamente, possuem o atributo ``@id``.
 
-O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
-``@id``.
+O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo ``@id``.
 
 
 Exemplo:

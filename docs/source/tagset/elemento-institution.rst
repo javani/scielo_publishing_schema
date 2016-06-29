@@ -16,9 +16,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Neste elemento identifica-se a instituição do autor, a qual pode ser dividida em
-até três níveis, definidos pelo atributo obrigatório ``@content-type``, cujos
-valores possíveis são:
+Neste elemento identifica-se a instituição do autor, a qual pode ser dividida em até três níveis, definidos pelo atributo obrigatório ``@content-type``, cujos valores possíveis são:
 
 +------------+--------------------------------------------------------------------+
 | Valor      | Descrição                                                          |
@@ -38,9 +36,9 @@ valores possíveis são:
 +------------+--------------------------------------------------------------------+
 
 
-.. note:: Divisões abaixo do terceiro nível hierárquico da institução são
-          identificadas somente no elemento ``<institution content-type="original">``.
+.. note:: Divisões abaixo do terceiro nível hierárquico da institução são identificadas somente no elemento ``<institution content-type="original">``.
 
+Exemplo:
 
 .. code-block:: xml
 
@@ -61,6 +59,8 @@ valores possíveis são:
 
 
 Deve-se especificar a afiliação completa como aparece no documento original.
+
+Exemplo:
 
 .. code-block:: xml
 
