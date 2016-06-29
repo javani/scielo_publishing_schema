@@ -16,11 +16,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-Identifica dados individuais, de grupo ou institucionais, de contribuintes
-do artigo, podendo ser inclusive anônimos.
-:ref:`elemento-name`, :ref:`elemento-collab`, :ref:`elemento-on-behalf-of`,
-:ref:`elemento-xref`, :ref:`elemento-role` e ``<anonymous>`` podem ser
-encontrados neste elemento.
+Identifica dados individuais, de grupo ou institucionais, de contribuintes do artigo, podendo ser inclusive anônimos. :ref:`elemento-name`, :ref:`elemento-collab`, :ref:`elemento-on-behalf-of`, :ref:`elemento-xref`, :ref:`elemento-role` e ``<anonymous>`` podem ser encontrados neste elemento.
 
 O atributo ``@contrib-type`` define o tipo de contribuição e pode ter os valores:
 
@@ -57,11 +53,8 @@ Exemplo:
     ...
 
 .. note::
-  * Utilizar *AACR2* - *Código de Catalogação Anglo Americano* e/ou *Currículo Lattes*
-    dos autores e avaliar formas de entrada autorizadas para nomes.
-  * Para artigos que apresentam assinatura, - como editoriais, apresentação etc.,
-    repetir autores de ``<sig-block>`` em ``front/contrib`` caso não exista tal
-	  informação.
+  * Utilizar *AACR2* - *Código de Catalogação Anglo Americano* e/ou *Currículo Lattes* dos autores e avaliar formas de entrada autorizadas para nomes.
+  * Para artigos que apresentam assinatura, - como editoriais, apresentação etc., repetir autores de ``<sig-block>`` em ``front/contrib`` caso não exista tal informação.
   * Em ``contrib`` o elemento :ref:`elemento-name` pode ou não ocorrer.
 
 

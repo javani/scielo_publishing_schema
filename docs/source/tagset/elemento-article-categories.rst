@@ -11,9 +11,7 @@ Ocorre:
 
   Uma vez
 
-Identifica a classificação do artigo de acordo com a seção em que
-aparece no sumário do periódico, podendo ser temática ou por
-tipologia do documento.
+Identifica a classificação do artigo de acordo com a seção em que aparece no sumário do periódico, podendo ser temática ou por tipologia do documento.
 
 Exemplo:
 

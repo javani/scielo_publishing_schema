@@ -15,9 +15,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Descreve uma legenda para vários tipos de objeto. ``<caption>`` encerra
-o elemento ``<title>`` para conter o texto descritivo de uma tabela,
-figura, mídia, fórmula ou objeto similar.
+Descreve uma legenda para vários tipos de objeto. ``<caption>`` encerra o elemento ``<title>`` para conter o texto descritivo de uma tabela, figura, mídia, fórmula ou objeto similar.
 
 Exemplo:
 

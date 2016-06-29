@@ -17,9 +17,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Descreve dados da fonte, autoria, agradecimentos, material de direitos autorais
-e outras informações. Geralmente se utiliza para especificar a fonte de origem
-de figuras e para identificar o autor de uma poesia ou verso.
+Descreve dados da fonte, autoria, agradecimentos, material de direitos autorais e outras informações. Geralmente se utiliza para especificar a fonte de origem de figuras e para identificar o autor de uma poesia ou verso.
 
 Exemplo em figura:
 

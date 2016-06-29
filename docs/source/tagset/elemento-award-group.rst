@@ -11,8 +11,7 @@ Ocorre:
 
   Uma ou mais vezes
 
-Identifica um grupo de dados de financiamento referente a um artigo. Pode haver tantos
-grupos quantos forem os financiadores.
+Identifica um grupo de dados de financiamento referente a um artigo. Pode haver tantos grupos quantos forem os financiadores.
 
 Exemplo:
 

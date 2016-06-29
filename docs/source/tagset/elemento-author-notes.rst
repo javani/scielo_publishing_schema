@@ -12,8 +12,7 @@ Ocorre:
   Zero ou mais vezes
 
 
-Identifica informações como: correspondência, contribuição igualitária, conflitos
-de interesse etc, ou seja, notas sobre o autor.
+Identifica informações como: correspondência, contribuição igualitária, conflitos de interesse etc, ou seja, notas sobre o autor.
 
 Exemplo:
 

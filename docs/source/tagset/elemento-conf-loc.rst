@@ -11,10 +11,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica a localização geográfica (país, cidade, estado,
-província) e/ou local físico (assembléia, anfiteatro etc.)
-de uma conferência, congresso, reunião, palestra, seminário
-e similares, mencionado em uma referência bibliográfica.
+Identifica a localização geográfica (país, cidade, estado, província) e/ou local físico (assembléia, anfiteatro etc.) de uma conferência, congresso, reunião, palestra, seminário e similares, mencionado em uma referência bibliográfica.
 
 Exemplo:
 

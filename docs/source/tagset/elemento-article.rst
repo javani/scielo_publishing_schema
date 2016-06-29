@@ -15,25 +15,18 @@ Atributos obrigatórios:
   4. ``@xmlns:xlink="http://www.w3.org/1999/xlink"``
   5. ``@specific-use="sps-1.0"``
 
-.. note:: No atributo ``@specific-use`` o valor **sps-1.0** é apenas uma
-          referência genérica à versão da *SciELO PS*. Deve ser utilizada sempre
-          a versão corrente (atual).
+.. note:: No atributo ``@specific-use`` o valor **sps-1.0** é apenas uma referência genérica à versão da *SciELO PS*. Deve ser utilizada sempre          a versão corrente (atual).
 
 Ocorre:
 
   Uma vez
 
 
-:ref:`elemento-article` é a raiz do *XML* do :term:`documento` e deve explicitar
-obrigatoriamente os atributos de versão da :term:`DTD`, tipo de documento, idioma do texto,
-???o que é??? ``@xmlns:xlink="http://www.w3.org/1999/xlink"`` e versão do :term:`schema SciELO PS`.
+:ref:`elemento-article` é a raiz do *XML* do :term:`documento` e deve explicitar obrigatoriamente os atributos de versão da :term:`DTD`, tipo de documento, idioma do texto, ???o que é??? ``@xmlns:xlink="http://www.w3.org/1999/xlink"`` e versão do :term:`schema SciELO PS`.
 
-O atributo ``@xmlns:mml="http://www.w3.org/1998/Math/MathML"`` é opcional e
-deve ser utilizado sempre que equações do tipo :term:`MathML` forem identificadas no
-:term:`documento`.
+O atributo ``@xmlns:mml="http://www.w3.org/1998/Math/MathML"`` é opcional e deve ser utilizado sempre que equações do tipo :term:`MathML` forem identificadas no :term:`documento`.
 
-Para ``@dtd-version`` deve-se utilizar o valor 1.0 conforme a :term:`DTD`,
-explicitada em :ref:`xml-doctype`.
+Para ``@dtd-version`` deve-se utilizar o valor 1.0 conforme a :term:`DTD`, explicitada em :ref:`xml-doctype`.
 
 Para tipo de documento (``@article-type``) os valores possíveis são:
 
@@ -109,17 +102,12 @@ Para tipo de documento (``@article-type``) os valores possíveis são:
 +--------------------+----------------------------------------------------------+
 
 
-.. note:: O atributo tipo de documento não deve ser confundido com a seção em que
-          o :term:`documento` aparece no sumário.
+.. note:: O atributo tipo de documento não deve ser confundido com a seção em que o :term:`documento` aparece no sumário.
 
 
-O idioma do texto (``@xml:lang``) é descrito pela norma :term:`ISO 639-1` como
-um código de dois caracteres alfabéticos em caixa baixa, cujo conteúdo
-encontra-se disponível no `site
-<http://www.mathguide.de/info/tools/languagecode.html>`_.
+O idioma do texto (``@xml:lang``) é descrito pela norma :term:`ISO 639-1` como um código de dois caracteres alfabéticos em caixa baixa, cujo conteúdo encontra-se disponível no `site <http://www.mathguide.de/info/tools/languagecode.html>`_.
 
-O atributo ``@specific-use`` identifica a versão utilizada da :term:`SciELO
-Publishing Schema`.
+O atributo ``@specific-use`` identifica a versão utilizada da :term:`SciELO Publishing Schema`.
 
 Exemplo (tag completa da `JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1.0/>`_):
 

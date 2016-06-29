@@ -23,9 +23,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica texto ou objeto que faz parte do artigo, mas não do corpo do texto
-(flutuante ou não ancorado).
-Permite apresentar texto com seções, figuras, tabelas etc.
+Identifica texto ou objeto que faz parte do artigo, mas não do corpo do texto (flutuante ou não ancorado). Permite apresentar texto com seções, figuras, tabelas etc.
 
 Exemplo com seção:
 

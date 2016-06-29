@@ -11,8 +11,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica o nome de uma conferência, congresso, reunião, palestra, seminário e
-similares mencionado em uma referência bibliográfica.
+Identifica o nome de uma conferência, congresso, reunião, palestra, seminário e similares mencionado em uma referência bibliográfica.
 
 Exemplo:
 

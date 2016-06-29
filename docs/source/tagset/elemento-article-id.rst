@@ -16,8 +16,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-Identificador único para cada :term:`documento`, sendo no caso da *SciELO*
-definido como o :term:`DOI` do artigo.
+Identificador único para cada :term:`documento`, sendo no caso da *SciELO* definido como o :term:`DOI` do artigo.
 
 Exemplo:
 

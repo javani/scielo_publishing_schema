@@ -18,8 +18,7 @@ Ocorre:
 
 Define a forma abreviada do título do periódico de acordo com o registro no *ISSN*.
 
-.. note:: Consulte o :ref:`arquivo de metadados dos periódicos <journal-meta-csv>`
-          como referência na identificação dos elementos.
+.. note:: Consulte o :ref:`arquivo de metadados dos periódicos <journal-meta-csv>` como referência na identificação dos elementos.
 
 Exemplo:
 

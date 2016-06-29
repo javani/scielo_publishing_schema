@@ -12,18 +12,13 @@ Ocorre:
   Zero ou mais vezes
 
 
-Elemento que identifica o resumo de um artigo. Não deve conter o atributo
-``@xml:lang``. Embora ``<abstract>`` possa não ocorrer, faz-se obrigatório
-quando :ref:`elemento-article` for declarado com atributo
-``@article-type="research-article"`` ou ``@article-type="review-article"``.
+Elemento que identifica o resumo de um artigo. Não deve conter o atributo ``@xml:lang``. Embora ``<abstract>`` possa não ocorrer, faz-se obrigatório quando :ref:`elemento-article` for declarado com atributo ``@article-type="research-article"`` ou ``@article-type="review-article"``.
 
-``<abstract>`` contém obrigatoriamente um elemento ``<title>`` que especifica o
-título do resumo.
+``<abstract>`` contém obrigatoriamente um elemento ``<title>`` que especifica o título do resumo.
 
 Os resumos dos artigos publicados na *SciELO* normalmente se apresentam em dois formatos:
 
-* Estruturado: Possui grupos de textos organizados em seções identificadas com
-  um título (Introdução, Objetivos, Métodos e Resultados).
+* Estruturado: Possui grupos de textos organizados em seções identificadas com um título (Introdução, Objetivos, Métodos e Resultados).
 
   Exemplo:
 
