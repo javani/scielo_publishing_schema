@@ -13,7 +13,7 @@ Ocorre:
   Zero ou uma vez
 
 
-Elemento utilizado quando há mais de três autores, sendo que somente se indica o primeiro, acrescentando-se a expressão ``et al.``, que significa "entre outros".
+Elemento utilizado com a finalidade de indicar contribuidores não identificados, sendo que somente se indica o primeiro, acrescentando-se a expressão ``et al.``, que significa "entre outros".
 
 Esta informação aparece primordialmente em referências.
 

@@ -7,8 +7,20 @@ Glossário
    :sorted:
 
 
+   AACR2
+     **termo sugerido**
+
+
    Creative Commons
      **termo sugerido**
+
+
+   Currículo Lattes
+    **termo sugerido**
+
+
+   Declaração do XML
+    **termo sugerido**
 
 
    elemento-pai
@@ -31,6 +43,10 @@ Glossário
      **termo sugerido**
 
 
+   Namespace
+     **termo sugerido**
+
+
    NISO JATS Journal Publishing DTD
      **termo sugerido**
      <http://jats.nlm.nih.gov/publishing/>
@@ -48,6 +64,10 @@ Glossário
      **termo sugerido**
 
 
+   Pubmed
+     **termo sugerido**
+
+
    RST
      **termo sugerido**
 
@@ -57,6 +77,10 @@ Glossário
 
 
    Stylechecker
+     **termo sugerido**
+
+
+   Unicode
      **termo sugerido**
 
 
@@ -70,7 +94,7 @@ Glossário
      Especificação do modelo de dados, no formato XML, para a submissão de artigos
      para coleções *SciELO*. É composta pela especificação
      `NISO JATS Journal Publishing DTD <http://jats.nlm.nih.gov/publishing/>`_
-     na versão 1.0 mais o :term:`Estilo SciELO`, que são regras que especializam
+     na versão 1.0 mais o :term:`Estilo SciELO PS`, que são regras que especializam
      aspectos da especificação :term:`JATS Publishing`.
 
 

@@ -56,7 +56,7 @@ Exemplos:
 
    ...
    <element-citation publication-type="book">
-        <person-group person-group-type="author"
+        <person-group person-group-type="author">
              <collab>American Occupational Therapy Association, Ad Hoc Committee on Occupational Therapy Manpower</collab>
         </person-group>
         <source>Occupational therapy manpower: a plan for progress</source>

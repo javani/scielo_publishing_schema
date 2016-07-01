@@ -12,7 +12,7 @@ Ocorre:
   Zero ou mais
 
 
-Descreve a instituição proprietária do copyright, normalmente em conjunto com o símbolo ``©`` e ano.
+Descreve pessoa ou instituição detentora dos direitos autorais, normalmente em conjunto com o símbolo ``©`` e ano.
 
 ``<copyright-statement>`` e ``<license-p>`` são geralmente utilizados para exibição dessa informação.
 

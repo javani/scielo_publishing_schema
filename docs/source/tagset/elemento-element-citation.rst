@@ -315,14 +315,14 @@ Exemplos:
 
 9. Conferência 2:
 
-  .. code-block:: xml
+.. code-block:: xml
 
     <!-- Confproc (proceedings) Sample -->
 
     ...
     <ref id="B42">
         <label>42</label>
-        <mixed-citation>Kornilaki, E., & Nunes, T. (1997). What do young children understand about division? In Proceedings of the 21th Annual International Conference of Psychology of Mathematics Education. Lahti, Finland: University of Helsinki.
+        <mixed-citation>Kornilaki, E., &amp; Nunes, T. (1997). What do young children understand about division? In Proceedings of the 21th Annual International Conference of Psychology of Mathematics Education. Lahti, Finland: University of Helsinki.
         </mixed-citation>
         <element-citation publication-type="confproc">
           <person-group person-group-type="author">
@@ -432,7 +432,7 @@ Exemplos:
     <ref-list>
         <ref id="B10">
             <label>10</label>
-            <mixed-citation>FUNDAÇÃO TROPICAL DE PESQUISAS E TECNOLOGIA “ANDRÉ TOSELLO”. Base de Dados Tropical. 1985. Disponível em: <http://www.bdt.fat.org.br/acaro/sp/>. Acesso em: 30 maio 2002.</mixed-citation>
+            <mixed-citation>FUNDAÇÃO TROPICAL DE PESQUISAS E TECNOLOGIA &quot;ANDRÉ TOSELLO&quot;. Base de Dados Tropical. 1985. Disponível em: &lt;http://www.bdt.fat.org.br/acaro/sp/&gt;. Acesso em: 30 maio 2002.</mixed-citation>
             <element-citation publication-type="database">
                 <person-group person-group-type="author">
                     <collab>FUNDAÇÃO TROPICAL DE PESQUISAS E TECNOLOGIA “ANDRÉ TOSELLO”</collab>

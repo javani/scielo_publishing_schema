@@ -9,14 +9,14 @@ Aparece em:
 
 Atributos obrigatórios:
 
-  1. ``@date-type="received"`` ou ``@date-type="accepted"`` ou ``@date-type="rev-recd"``
+  1. ``@date-type``
 
 Ocorre:
 
   Uma ou mais vezes
 
 
-``<date>`` deve conter obrigatoriamente o elemento :ref:`elemento-year`. Usa-se o atributo ``@date-type`` para especificar o tipo do ação envolvida.
+``<date>`` deve conter obrigatoriamente o elemento :ref:`elemento-year`. Usa-se o atributo ``@date-type`` para especificar o tipo da ação envolvida.
 
 Os valores possíveis para o atributo ``@date-type`` são:
 

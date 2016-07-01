@@ -6,7 +6,7 @@
 Aparece em:
 
   :ref:`elemento-app`
-  ``app-group``
+  ``<app-group>``
   :ref:`elemento-body`
   :ref:`elemento-boxed-text`
   ``<def-list>``
@@ -27,9 +27,7 @@ Ocorre:
 
 
 
-Descreve uma lista de termos e suas respectivas definições.
-
-A lista de definições deve ser apresentada como texto e apresenta os seguintes elementos:
+Descreve uma lista de termos e suas respectivas definições, que deve ser apresentada como texto contendo os seguintes elementos:
 
 * ``<title>``
 * ``<term-head>``
@@ -37,7 +35,7 @@ A lista de definições deve ser apresentada como texto e apresenta os seguintes
 * ``<def-item>``
 * ``<def-list>``
 
-Em ``<def-item>`` usam-se os seguintes elementos:
+Em ``<def-item>`` usam-se os seguintes sub-elementos:
 
 * ``<term>``: Identifica a palavra, frase, equação etc., que está sendo definida ou descrita.
 * ``<def>``: Descrição, explicação da palavra ou frase em ``<term>``. Nesse contexto deve-se, obrigatoriamente, inserir o elemento :ref:`elemento-p`.
@@ -47,7 +45,7 @@ O guia :ref:`sugestao-atribuicao-id` descreve o modo de composição do atributo
 
 Exemplos:
 
-1. em ``<body:``:
+1. em ``<body>``:
 
 .. code-block:: xml
 
