@@ -11,9 +11,9 @@ Ocorre:
 
   Zero ou mais vezes
 
-Seção de agradecimentos. Frequentemente indica os dados de financiamento da pesquisa como descrito em :ref:`elemento-funding-group` dentro de :ref:`elemento-front`.
+Seção de agradecimentos. Frequentemente indica os dados de financiamento da pesquisa como descrito em :ref:`elemento-funding-group`.
 
-No caso de ter um título (ex. "Agradecimentos" ou "Acknowledgment") identifica-se com o elemento ``<title>`` (:term:`JATS versão 1.0`). Também é possível utilizar o elemento :ref:`elemento-p` para identificar os parágrafos do texto.
+No caso de ter um título (ex. "Agradecimentos" ou "Acknowledgment") identifica-se com o elemento ``<title>`` (`JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1.0/>`_). Também é possível utilizar o elemento :ref:`elemento-p` para identificar os parágrafos do texto.
 
 Exemplo:
 

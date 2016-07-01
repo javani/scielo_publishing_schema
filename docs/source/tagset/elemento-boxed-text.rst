@@ -9,7 +9,7 @@ Aparece em:
   ``<app-group>``
   :ref:`elemento-body`
   :ref:`elemento-boxed-text`
-  :ref:`glossary`
+  :ref:`elemento-glossary`
   :ref:`elemento-p`
   :ref:`elemento-ref-list`
   :ref:`elemento-sec`

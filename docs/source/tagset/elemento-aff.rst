@@ -53,4 +53,5 @@ Exemplo:
     </aff>
     ...
 
- .. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}
+
+.. {"reviewed_on": "20160617", "by": "gandhalf_thewhite@hotmail.com"}

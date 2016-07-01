@@ -11,15 +11,25 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica informações adicionais juntamente com uma URL (ver elemento :ref:`elemento-ext-link`) ou para identificar dados em uma referência que não possuem marcação específica.
+Identifica informações adicionais, como por exemplo, "Disponível em:", que precede uma URL (ver elemento :ref:`elemento-ext-link`) em uma referência, e que não possuem marcação específica.
 
-Exemplo:
+Exemplos:
 
 .. code-block:: xml
 
     ...
     <element-citation>
         <comment>1 CD-ROM: color, 4 3/4 in.</comment>
+    </element-citation>
+    ...
+
+.. code-block:: xml
+
+    ...
+    <element-citation>
+        ...
+        <comment>Disponível em: <ext-link ext-link-type="uri" xlink:href="http://www.nomedoURL...">http://www.nomedoURL...</ext-link>.</comment>
+        ...
     </element-citation>
     ...
 

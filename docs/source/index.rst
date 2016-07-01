@@ -24,7 +24,7 @@ A :term:`SciELO Publishing Schema` (:term:`SciELO PS`) é composta pelas especif
 
 Os usuários deste guia devem possuir conhecimentos prévios de :term:`XML` e :term:`DTD`.
 
-Dúvidas e/ou comentários acerca da especificação :term:`SciELO PS`, deste guia de uso ou das ferramentas disponibilizadas pela *SciELO* como apoio à marcação em :term:`XML` devem ser tratadas por meio de da lista de discussão `scielo-xml <http://groups.google.com/group/scielo-xml/>`_.
+Dúvidas e/ou comentários acerca da especificação :term:`SciELO PS`, deste guia de uso ou das ferramentas disponibilizadas pela *SciELO* como apoio à marcação em :term:`XML` devem ser tratadas por meio de lista de discussão `scielo-xml <http://groups.google.com/group/scielo-xml/>`_.
 
 
 Notas da versão
@@ -32,7 +32,7 @@ Notas da versão
 
 As versões são disponibilizadas a cada seis meses em calendário fixo. Versões de correção são disponibilizadas por demanda, sendo identificadas no terceiro dígito da versão. Ex.: versão *1.1.1*.
 
-Duas versões são suportadas simultaneamente, a atual e a imediatamente anterior. Essa medida garante um ciclo de vida de 1 (um) ano para cada versão. Por **suportar** entenda-se manter documentação, ferramentas de apoio, ingresso no processo de submissão e comunidade de usuários.
+Duas versões são suportadas simultaneamente, a atual e a imediatamente anterior. Essa medida garante um ciclo de vida de 1 (um) ano para cada versão.
 
 .. toctree::
    :maxdepth: 1
@@ -50,12 +50,12 @@ Algumas ferramentas são disponibilizadas e mantidas pela *SciELO* seguindo o mo
 
 * `Markup <http://docs.scielo.org/projects/scielo-pc-programs/en/latest/markup.html>`_:
 
-  Coleção de macros para :term:`Microsoft Word` para marcação de documentos  conforme a :term:`SciELO Publishing Schema`.
+  Coleção de macros para :term:`Microsoft Word` para marcação de documentos  conforme a :term:`SciELO PS`.
 
 
 * `Stylechecker <http://manager.scielo.org/tools/validators/stylechecker/>`_:
 
-  Ferramenta de Internet para verificar se determinado XML está em conformidade   com a especificação :term:`SciELO PS`. Disponível a partir do :term:`SciELO  Manager`.
+  Ferramenta online para verificar se determinado XML está em conformidade   com a especificação :term:`SciELO PS`. Disponível a partir do :term:`SciELO  Manager`.
 
 
 * `Packtools <https://github.com/scieloorg/packtools/>`_:
@@ -117,7 +117,7 @@ Na descrição dos elementos, devem obrigatoriamente aparecer os seguintes itens
 
    Ex. ``<journal-meta>``
 
-3. Atributos obrigatórios: lista somente os atributos obrigatórios ao elemento descrito. Pode vir acompanhada de valores predefinidos e/ou obrigatórios. Item opcional.
+3. Atributos obrigatórios: lista somente os atributos obrigatórios ao elemento descrito. Pode vir acompanhado de valores predefinidos e/ou obrigatórios. Item opcional.
 
    Ex. ``@journal-id-type``
 
@@ -152,7 +152,7 @@ Documentação narrativa
 Lista de elementos
 ------------------
 
-Esta lista compreende apenas os elementos XML do :term:`Estilo SciELO PS`. A lista completa dos elementos XML que compõem o :term:`tag set` da `JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1.0/ >`_ deve ser consultada se necessário.
+Esta lista compreende apenas os elementos XML do :term:`Estilo SciELO PS`. A lista completa dos elementos XML que compõem o :term:`tag set` da `JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1.0/>`_ deve ser consultada se necessário.
 
 .. toctree::
    :maxdepth: 1

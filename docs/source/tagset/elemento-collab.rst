@@ -12,7 +12,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identificar uma autoria institucional individual ou em grupo.
+Identifica uma autoria institucional individual ou em grupo.
 
 Exemplo:
 

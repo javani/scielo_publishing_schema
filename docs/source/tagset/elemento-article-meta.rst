@@ -17,18 +17,23 @@ Contém os metadados do artigo, cujos elementos básicos são:
 * :term:`DOI`;
 * seção (de acordo com o sumário do periódico);
 * título(s) do artigo;
-* autor(es) e respectiva(s) afiliação(ões) e notas;
+* autor(es);
+* afiliação e notas de autor ``*``;
 * data de publicação;
-* volume;
-* número;
-* paginação do artigo;
-* resumo(s);
+* volume ``*``;
+* número ``*``;
+* paginação do artigo ``*``;
+* resumo(s) ``*``;
 * palavras-chave;
-* histórico;
+* histórico ``*``;
 * indicação da licença de uso :term:`Creative Commons`;
 * contagem de elementos; e
-* dados de financiamento (se houver).
+* dados de financiamento  ``*``.
+
+.. note:: Os itens identificados com asterisco devem ser inseridos no :term:`documento` somente se aplicável.
+
 
 Exemplo:
+
 
 .. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

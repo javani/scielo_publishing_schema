@@ -22,7 +22,7 @@ Ocorre:
   Uma vez
 
 
-:ref:`elemento-article` é a raiz do *XML* do :term:`documento` e deve explicitar obrigatoriamente os atributos de versão da :term:`DTD`, tipo de documento, idioma do texto, ???o que é??? ``@xmlns:xlink="http://www.w3.org/1999/xlink"`` e versão do :term:`schema SciELO PS`.
+:ref:`elemento-article` é a raiz do *XML* do :term:`documento` e deve explicitar, obrigatoriamente, os atributos de versão da :term:`DTD`, tipo de documento, idioma do texto, declarações de :term:`namespace` e versão da :term:`SciELO PS` utilizada.
 
 O atributo ``@xmlns:mml="http://www.w3.org/1998/Math/MathML"`` é opcional e deve ser utilizado sempre que equações do tipo :term:`MathML` forem identificadas no :term:`documento`.
 
@@ -102,7 +102,7 @@ Para tipo de documento (``@article-type``) os valores possíveis são:
 +--------------------+----------------------------------------------------------+
 
 
-.. note:: O atributo tipo de documento não deve ser confundido com a seção em que o :term:`documento` aparece no sumário.
+.. note:: O atributo tipo de documento não deve ser confundido com a seção em que o :term:`documento` aparece no sumário (:ref:`elemento-subj-group`).
 
 
 O idioma do texto (``@xml:lang``) é descrito pela norma :term:`ISO 639-1` como um código de dois caracteres alfabéticos em caixa baixa, cujo conteúdo encontra-se disponível no `site <http://www.mathguide.de/info/tools/languagecode.html>`_.
@@ -118,5 +118,6 @@ Exemplo (tag completa da `JATS versão 1.0 <http://jats.nlm.nih.gov/publishing/1
            ...
 
 	 </article>
+
 
 .. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

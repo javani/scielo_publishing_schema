@@ -16,7 +16,7 @@ Ocorre:
   Uma ou mais vezes
 
 
-Identificador único para cada :term:`documento`, sendo no caso da *SciELO* definido como o :term:`DOI` do artigo.
+Identificador único para cada artigo, sendo no caso da *SciELO* definido como o :term:`DOI`.
 
 Exemplo:
 
@@ -29,5 +29,6 @@ Exemplo:
         ...
     </article-meta>
     ...
+
 
 .. {"reviewed_on": "20160623", "by": "gandhalf_thewhite@hotmail.com"}

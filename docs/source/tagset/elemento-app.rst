@@ -15,22 +15,23 @@ Ocorre:
 
   Zero ou mais vezes
 
-Utilizado para indicar um apêndice ao documento. Exige o elemento :ref:`elemento-label` como título do apêndice. O elemento :ref:`app-group` deve sempre ser usado como agrupador do elemento ``<app>`` mesmo que houver somente uma ocorrência deste último.
+Utilizado para indicar um apêndice ao documento. Exige o elemento :ref:`elemento-label` como título do apêndice. O elemento ``app-group`` deve sempre ser usado como agrupador do elemento ``<app>`` mesmo que houver somente uma ocorrência deste último.
 
 Exemplos:
 
-  ``app01... app10, app11``;
-
-  * :ref:`Exemplo de apêndice com texto`
-  * :ref:`Exemplo de apêndice com imagem (fotografia, figura, tabela, quadro, equação e etc)`
-  * :ref:`Exemplo de apêndice com link externo (endereço do tipo URI)`
-  * :ref:`Exemplo de apêndice com tabela`
-  * :ref:`Exemplo de apêndice misto (figura mais tabela)`
-  * :ref:`Exemplo de apêndice misto (texto mais figura)`
-  * :ref:`Exemplo de apêndice com vídeo`
+  * :ref:`elemento-app-exemplo-1`
+  * :ref:`elemento-app-exemplo-2`
+  * :ref:`elemento-app-exemplo-3`
+  * :ref:`elemento-app-exemplo-4`
+  * :ref:`elemento-app-exemplo-5`
+  * :ref:`elemento-app-exemplo-6`
+  * :ref:`elemento-app-exemplo-7`
 
 
-.. _Exemplo de apêndice com texto:
+.. _elemento-app-exemplo-1:
+
+Exemplo de apêndice com texto
+-----------------------------
 
 .. code-block:: xml
 
@@ -43,8 +44,10 @@ Exemplos:
     </app-group>
     ...
 
+.. _elemento-app-exemplo-2:
 
-.. _Exemplo de apêndice com imagem (fotografia, figura, tabela, quadro, equação e etc):
+Exemplo de apêndice com imagem (fotografia, figura, tabela, quadro, equação e etc)
+----------------------------------------------------------------------------------
 
 .. code-block:: xml
 
@@ -58,7 +61,11 @@ Exemplos:
     </app-group>
     ...
 
-.. _Exemplo de apêndice com link externo (endereço do tipo URI):
+
+.. _elemento-app-exemplo-3:
+
+Exemplo de apêndice com link externo (endereço do tipo URI)
+-----------------------------------------------------------
 
 .. code-block:: xml
 
@@ -71,7 +78,11 @@ Exemplos:
     </app-group>
     ...
 
-.. _Exemplo de apêndice com tabela:
+
+.. _elemento-app-exemplo-4:
+
+Exemplo de apêndice com tabela
+------------------------------
 
 .. code-block:: xml
 
@@ -110,7 +121,11 @@ Exemplos:
     </app-group>
     ...
 
-.. _Exemplo de apêndice misto (figura mais tabela)
+
+.. _elemento-app-exemplo-5:
+
+Exemplo de apêndice misto (figura mais tabela)
+----------------------------------------------
 
 .. code-block:: xml
 
@@ -154,7 +169,11 @@ Exemplos:
     </app-group>
     ...
 
-.. _Exemplo de apêndice misto (texto mais figura):
+
+.. _elemento-app-exemplo-6:
+
+Exemplo de apêndice misto (texto mais figura)
+---------------------------------------------
 
 .. code-block:: xml
 
@@ -172,7 +191,11 @@ Exemplos:
     </app-group>
     ...
 
-.. _Exemplo de apêndice com vídeo:
+
+.. _elemento-app-exemplo-7:
+
+Exemplo de apêndice com vídeo
+-----------------------------
 
 .. code-block:: xml
 
