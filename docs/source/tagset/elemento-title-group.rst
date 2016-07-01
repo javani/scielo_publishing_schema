@@ -3,14 +3,19 @@
 <title-group>
 -------------
 
-Aparece em
+Aparece em:
+
   :ref:`elemento-article-meta`
- 
-Ocorre
+
+Ocorre:
+
   Uma vez
 
 
-Esta tag é utilizada para especificar o título ou um conjunto de títulos 
-do artigo. Nele são identificados :ref:`elemento-article-title` e 
+Especifica o título ou o conjunto de títulos do artigo. Nele são identificados :ref:`elemento-article-title` e
 :ref:`elemento-trans-title-group`.
- 
+
+Exemplo:
+
+
+.. {"reviewed_on": "20160629", "by": "gandhalf_thewhite@hotmail.com"}

@@ -3,14 +3,20 @@
 <publisher-loc>
 ^^^^^^^^^^^^^^^
 
-Aparece em
-  :ref:`elemento-product`, 
-  :ref:`elemento-element-citation`, 
+Aparece em:
+
+  :ref:`elemento-product`
+  :ref:`elemento-element-citation`
   :ref:`elemento-publisher`
-  
-Ocorre 
+
+Ocorre:
+
   Zero ou mais vezes
 
 
-Identifica o local de uma casa publicadora ou editora.
+Identifica o local físico de uma casa publicadora ou editora.
 
+Exemplo:
+
+
+.. {"reviewed_on": "20160628", "by": "gandhalf_thewhite@hotmail.com"}
