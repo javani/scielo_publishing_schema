@@ -16,7 +16,7 @@ Ocorre:
 
   Zero ou mais vezes
 
-Identifica o tipo de identificador (id) de um :term:`documento` em uma referência. Deve possuir o atributo ``@pub-id-type`` cujos possíveis valores são:
+Especifica o identificador de uma publicação em uma referência bibliográfica. O atributo ``@pub-id-type`` é mandatório e explicita o tipo do identificador, autoridade ou organização responsável pela atribuição deste. Os valores possíveis são:
 
 +--------+----------------------------------------+
 | Valor  | Descrição                              |
@@ -41,5 +41,6 @@ Exemplo:
         <pub-id pub-id-type="pmid">15867408</pub-id>
     </element-citation>
     ...
+
 
 .. {"reviewed_on": "20160628", "by": "gandhalf_thewhite@hotmail.com"}

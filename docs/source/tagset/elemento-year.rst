@@ -8,6 +8,7 @@ Aparece em:
   :ref:`elemento-pub-date`
   :ref:`elemento-product`
   :ref:`elemento-element-citation`
+  :ref:`elemento-date`
 
 Ocorre:
 

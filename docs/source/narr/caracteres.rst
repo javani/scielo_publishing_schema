@@ -6,7 +6,7 @@ A especificação :term:`SciELO PS` exige que os documentos :term:`XML` estejam 
    ``<?xml version="1.0" encoding="utf-8"?>``
 
 
-Caracteres especiais, quando utilizados, devem ser inseridos diretamente no documento ou por meio de referências numéricas em notação hexadecimal. Por exemplo, o caractere sigma maiúsculo deve ser representado por ``Σ`` ou ``&#x03A3``.
+Caracteres especiais, quando utilizados, devem ser inseridos diretamente no documento ou por meio de referências numéricas em notação hexadecimal. Por exemplo, o caractere sigma maiúsculo deve ser representado por ``Σ`` ou ``&#x03A3;``.
 
 Não é permitido o uso de referências a caracteres de uso privado da tabela :term:`Unicode` contidas no intervalo ``xE000 – xF8FF``.
 

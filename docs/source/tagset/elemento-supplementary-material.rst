@@ -23,7 +23,7 @@ Ocorre:
 
 O material suplementar é um :term:`documento` que não faz parte do texto do artigo, mas que serviu como apoio para sua elaboração. Em ``<supplementary-material>`` é possível especificar tabelas, figuras, dados brutos de planilha, bancos de dados de genomas, quiz, equações, links, diálogos, listas, licenças e objetos multimídia como áudio e vídeo.
 
-Este elemento pode ser descrito em :ref:`elemento-front`, em :ref:`elemento-article-meta`, em :ref:`elemento-body` como seção ou entre parágrafos, ou em :ref:`elemento-back` onde só poderá ser identificado dentro do grupo de apêndices (``app-group``).
+Este elemento pode ser descrito em :ref:`elemento-front`, em :ref:`elemento-article-meta`, em :ref:`elemento-body` como seção ou entre parágrafos, ou em :ref:`elemento-back` onde só poderá ser identificado dentro do grupo de apêndices, em (``app``).
 
 Os atributos obrigatórios são:
 

@@ -3,7 +3,7 @@
 Artigo Comentado
 ================
 
-Artigos que apresentam uma resposta diretamente relacionada ao artigo principal devem apresentar um elemento :ref:`elemento-related-article` inserido em :ref:`elemento-response`. Para isso, no artigo principal o atributo ``@article-type`` deve ter como valor ``article-commentary``.
+Artigos que apresentam um comentário diretamente relacionada ao artigo principal devem apresentar um elemento :ref:`elemento-related-article` inserido em :ref:`elemento-response`. Para isso, no artigo principal o atributo ``@article-type`` deve ter como valor ``article-commentary``.
 
 Exemplo:
 

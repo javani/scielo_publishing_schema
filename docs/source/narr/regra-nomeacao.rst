@@ -35,7 +35,7 @@ Para Número:
 
 Exemplo:
 
-    ``0037-8682-rsbmt-48-01-00033.xm``
+    ``0037-8682-rsbmt-48-01-00033.xml``
 
 
 Para Ahead-Of-Print:
@@ -50,7 +50,7 @@ Exemplo:
 Imagens
 -------
 
-Em imagens (que podem ser figuras, tabelas, equações, apêndices e etc), utilizar a seguinte estrutura de nomeação tanto para as que se encontram dentro do XML quanto para as da pasta do pacote do número ou lote de :term:`ahead-of-print`.
+Em imagens (que podem ser figuras, tabelas, equações, apêndices etc), utilizar a seguinte estrutura de nomeação tanto para as que se encontram dentro do XML quanto para as da pasta do pacote do número ou lote de :term:`ahead-of-print`.
 
 Para Número:
 

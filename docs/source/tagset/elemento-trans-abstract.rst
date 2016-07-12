@@ -6,6 +6,7 @@
 Aparece em:
 
   :ref:`elemento-article-meta`
+  :ref:`elemento-front-stub`
 
 Atributos obrigatórios:
 
