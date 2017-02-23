@@ -1,4 +1,4 @@
-﻿.. _scielo-brasil:
+.. _scielo-brasil:
 
 Regras Específicas para SciELO Brasil
 =====================================
@@ -92,11 +92,12 @@ A URL da licença deve ser inserida como valor do atributo ``@xlink:href`` de :r
     </article-meta>
     ...
 
+.. note:: Considera-se a lista de licenças permitidas apenas para :ref:`elemento-article-meta`.
+
 .._elemento-scibrasil-disp-inline-table:
 
 Tabelas e equações codificadas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Os elementos :ref:`elemento-disp-formula`, :ref:`elemento-inline-formula` e :ref:`elemento-table` que identificam dados de tabelas e equações devem ser codificados. Adicionalmente, o elemento :ref:`elemento-alternatives` pode ser usado para armazenar a versão em imagem desses elementos.
+Os elementos :ref:`elemento-disp-formula`, :ref:`elemento-inline-formula` e :ref:`elemento-table`, que identificam dados de tabelas e equações, devem ser codificados. Adicionalmente, o elemento :ref:`elemento-alternatives` pode ser usado para armazenar a versão em imagem desses elementos na extensão .svg.
 
-.. note:: Considera-se a lista de licenças permitidas apenas para :ref:`elemento-article-meta`.
