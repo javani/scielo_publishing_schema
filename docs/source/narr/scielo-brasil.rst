@@ -8,6 +8,7 @@ Para atender aos "Critérios, política e procedimentos para a admissão e a per
 
   * :ref:`elemento-scibrasil-article-id`
   * :ref:`elemento-scibrasil-license`
+  * :ref:`elemento-scibrasil-disp-inline-table`
 
 
 
@@ -91,6 +92,11 @@ A URL da licença deve ser inserida como valor do atributo ``@xlink:href`` de :r
     </article-meta>
     ...
 
+.._elemento-scibrasil-disp-inline-table:
 
+Tabelas e equações codificadas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Os elementos :ref:`elemento-disp-formula`, :ref:`elemento-inline-formula` e :ref:`elemento-table` que identificam dados de tabelas e equações devem ser codificados. Adicionalmente, o elemento :ref:`elemento-alternatives` pode ser usado para armazenar a versão em imagem desses elementos.
 
 .. note:: Considera-se a lista de licenças permitidas apenas para :ref:`elemento-article-meta`.
