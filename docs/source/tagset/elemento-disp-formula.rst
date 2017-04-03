@@ -29,7 +29,6 @@ Exemplos:
   * :ref:`elemento-displatex-exemplo-2`
   * :ref:`elemento-dispimg-exemplo-3`
 
-
 .. _elemento-dispmath-exemplo-1:
 
 
@@ -79,30 +78,29 @@ Equação codificada em LaTeX:
 .. code-block:: xml
 
     ...
-        <disp-formula id="e10">
-            <label>(1)</label>
-                <tex-math id="tx1">
-                  \documentclass {article}
-                  \usepackage{wasysym}
-                  \usepackage[substack]{amsmath}
-                  \usepackage{amsfonts}
-                  \usepackage{amssymb}
-                  \usepackage{amsbsy}
-                  \usepackage[mathscr]{eucal}
-                  \usepackage{mathrsfs}                           
-                  \usepackage{pmc}
-                  \usepackage[Euler]{upgreek}
-                  \pagestyle{empty}
-                   \oddsidemargin -1.0in
-                   \begin{document}
-                   \[E_it=α_i+Z_it γ+W_it δ+C_it θ+∑_i^n EFind_i+∑_t^n EFtemp_t+ ε_it                                 \]
-                   \end{document}
-                </tex-math>
-         </disp-formula>
+    <disp-formula id="e10">
+        <label>(1)</label>
+        <tex-math id="tx1">
+            \documentclass {article}
+            \usepackage{wasysym}
+            \usepackage[substack]{amsmath}
+            \usepackage{amsfonts}
+            \usepackage{amssymb}
+            \usepackage{amsbsy}
+            \usepackage[mathscr]{eucal}
+            \usepackage{mathrsfs}                           
+            \usepackage{pmc}
+            \usepackage[Euler]{upgreek}
+            \pagestyle{empty}
+            \oddsidemargin -1.0in
+            \begin{document}
+            \[E_it=α_i+Z_it γ+W_it δ+C_it θ+∑_i^n EFind_i+∑_t^n EFtemp_t+ ε_it                                 \]
+            \end{document}
+        </tex-math>
+    </disp-formula>
     ...
 
 .. _elemento-dispimg-exemplo-3:
-
 
 Equação em imagem:
 ------------------
@@ -115,6 +113,7 @@ Equação em imagem:
         <graphic xlink:href="1234-5678-rctb-45-05-0110-e01.tif"/>
     </disp-formula>
     ...
+
 
 Para *SciELO* Brasil consulte:
 
