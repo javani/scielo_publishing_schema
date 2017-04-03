@@ -3,16 +3,16 @@ O que há de novo na SciELO PS 1.6
 
 
 Este artigo explica as alterações da especificação :term:`SciELO PS` versão 1.6 em 
-relação à sua predecessora, a versão 1.4. 
+relação à sua predecessora, a versão 1.5. 
 
 
 * Adicionado suporte a qualquer valor para o atributo article/@article-type para artigos em Ahead of Print (AOP) 
-  [`#240 <https://github.com/scieloorg/scielo_publishing_schema/issues/240>`_].
-* Adicionado elemento ``<alternatives>`` 
-  [`#184 <https://github.com/scieloorg/scielo_publishing_schema/issues/184>`_].
-* Adicionado suporte a qualquer licença Creative Commons na seção de :ref:`scielo-brasil`  [`#198 <https://github.com/scieloorg/scielo_publishing_schema/issues/198>`_].
+  [`#240 <https://github.com/scieloorg/scielo_publishing_schema/issues/240>`_];
+* Adicionado elemento ``<alternatives>`` para armazenamento de versões logicamente equivalentes dos elementos ``<disp-formula>``, ``<inline-formula>`` e ``<table-wrap>``
+  [`#184 <https://github.com/scieloorg/scielo_publishing_schema/issues/184>`_];
+* Adicionado suporte a qualquer licença Creative Commons na seção de :ref:`scielo-brasil`  [`#198 <https://github.com/scieloorg/scielo_publishing_schema/issues/198>`_];
 * Adicionada restrição de uso de imagens para os elementos ``<disp-formula>``, ``<inline-formula>`` e ``<table-wrap>`` na seção de :ref:`scielo-brasil`
-  [`#198 <https://github.com/scieloorg/scielo_publishing_schema/issues/198>`_].
+  [`#198 <https://github.com/scieloorg/scielo_publishing_schema/issues/198>`_];
 * Adicionado suporte ao elemento ``<attrib>`` em ``<table-wrap-foot>``
   [`#480 <https://github.com/scieloorg/scielo_publishing_schema/issues/480>`_].
 
@@ -33,8 +33,8 @@ São as alterações na documentação que não interferem nas regras da especif
   [`#485 <https://github.com/scieloorg/scielo_publishing_schema/issues/485>`_],
   [`#486 <https://github.com/scieloorg/scielo_publishing_schema/issues/486>`_],
   [`#489 <https://github.com/scieloorg/scielo_publishing_schema/issues/489>`_],
-  [`#500 <https://github.com/scieloorg/scielo_publishing_schema/issues/500>`_],
+  [`#500 <https://github.com/scieloorg/scielo_publishing_schema/issues/500>`_];
 * Inclui URL absoluta em ``<!DOCTYPE>``
-  [`#489 <https://github.com/scieloorg/scielo_publishing_schema/issues/489>`_],
+  [`#489 <https://github.com/scieloorg/scielo_publishing_schema/issues/489>`_];
 * Inclui o elemento ``<ref-list>`` em Aparece em do elemento ``<ref-list>``
-  [`#486 <https://github.com/scieloorg/scielo_publishing_schema/issues/486>`_]
+  [`#486 <https://github.com/scieloorg/scielo_publishing_schema/issues/486>`_].
